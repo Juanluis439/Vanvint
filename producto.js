@@ -612,7 +612,7 @@ productos = [
     material: "Acciaio Inox",
     price: "14,50",
     img: "img92.jpeg",
-  },{
+  },/*{
     index: 92,
     name: "Orecchini Hoop Alia Gold",
     material: "Acciaio Inox",
@@ -648,7 +648,7 @@ productos = [
     material: "Acciaio Inox",
     price: "12,00",
     img: "img98.jpeg",
-  },{
+  },*/{
     index: 98,
     name: "Collana Estiva Gold",
     material: "Acciaio Inox",
