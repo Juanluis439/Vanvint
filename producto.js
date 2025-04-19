@@ -57,16 +57,27 @@ productos = [
 
 const contenedor = document.getElementById("lista-productos");
 
-productos.forEach((producto) => {
+const params = new URLSearchParams(window.location.search);
+const categoria = params.get("categoria");
+
+let productosFiltrados = productos;
+if (categoria) {
+  const palabraClave = categoria.toLowerCase();
+  productosFiltrados = productos.filter((p) =>
+    p.name.toLowerCase().includes(palabraClave)
+  );
+}
+
+productosFiltrados.forEach((producto) => {
   const div = document.createElement("div");
   div.classList.add("product");
   div.innerHTML = `
     <img src="img-new/${producto.img}" alt="${producto.name}">
     <h3>${producto.name}</h3>
     <p class="precio">€ ${producto.price}</p>
-    <a href="#" class="agregar-carrito btn-2" data-id="4"
-              >Agregar al Carrito</a
-            >
+    <a href="#" class="agregar-carrito btn-2" data-id="${producto.index}">
+      aggiungi al carrello
+    </a>
   `;
   contenedor.appendChild(div);
 });

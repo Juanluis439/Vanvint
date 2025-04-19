@@ -1,14 +1,38 @@
+const productosEnCarrito = new Set();
 const carrito = document.getElementById("carrito");
 const elementos1 = document.getElementById("lista-1");
 const lista = document.querySelector("#lista-carrito tbody");
 const vaciarCarritoBtn = document.getElementById("vaciar-carrito");
+const contenedorProductos = document.getElementById("lista-productos");
 
 cargarEventListers();
 
 function cargarEventListers() {
-  elementos1.addEventListener("click", comprarElemento);
-  carrito.addEventListener("click", eliminarElemento);
-  vaciarCarritoBtn.addEventListener("click", vaciarCarrito);
+  if (elementos1) {
+    elementos1.addEventListener("click", comprarElemento);
+  }
+  if (carrito) {
+    carrito.addEventListener("click", eliminarElemento);
+  }
+  if (vaciarCarritoBtn) {
+    vaciarCarritoBtn.addEventListener("click", vaciarCarrito);
+  }
+  if (contenedorProductos) {
+    contenedorProductos.addEventListener("click", comprarElemento);
+  }
+
+  document.addEventListener("DOMContentLoaded", leerLocalStorage);
+}
+
+function leerLocalStorage() {
+  const elementos = obtenerElementosLocalStorage();
+  elementos.forEach((el) => insertarCarrito(el));
+}
+
+function obtenerElementosLocalStorage() {
+  return localStorage.getItem("carrito")
+    ? JSON.parse(localStorage.getItem("carrito"))
+    : [];
 }
 
 function comprarElemento(e) {
@@ -30,6 +54,11 @@ function leerDatosElemento(elemento) {
 }
 
 function insertarCarrito(elemento) {
+  if (productosEnCarrito.has(elemento.id)) {
+    alert("Este producto ya está en el carrito.");
+    return;
+  }
+
   const row = document.createElement("tr");
   row.innerHTML = `
         <td>
@@ -46,6 +75,17 @@ function insertarCarrito(elemento) {
         </td>
     `;
   lista.appendChild(row);
+  agregarElementoLocalStorage(elemento);
+}
+
+function agregarElementoLocalStorage(elemento) {
+  let elementos = obtenerElementosLocalStorage();
+  const existe = elementos.some((el) => el.id === elemento.id);
+
+  if (!existe) {
+    elementos.push(elemento);
+    localStorage.setItem("carrito", JSON.stringify(elementos));
+  }
 }
 
 function eliminarElemento(e) {
@@ -58,9 +98,28 @@ function eliminarElemento(e) {
   }
 }
 
+function eliminarElemento(e) {
+  e.preventDefault();
+  if (e.target.classList.contains("borrar")) {
+    const fila = e.target.parentElement.parentElement;
+    const elementoId = e.target.getAttribute("data-id");
+
+    fila.remove();
+    eliminarElementoLocalStorage(elementoId);
+  }
+}
+
+function eliminarElementoLocalStorage(id) {
+  let elementos = obtenerElementosLocalStorage();
+  elementos = elementos.filter((el) => el.id !== id);
+  localStorage.setItem("carrito", JSON.stringify(elementos));
+}
+
 function vaciarCarrito() {
   while (lista.firstChild) {
     lista.removeChild(lista.firstChild);
   }
+
+  localStorage.removeItem("carrito");
   return false;
 }
