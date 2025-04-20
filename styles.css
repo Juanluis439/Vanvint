@@ -286,6 +286,17 @@ td {
   justify-content: space-between;
 }
 
+.icon-img {
+  width: 200px;
+  height: auto;
+}
+.opinion {
+  width: 100px;
+}
+.calidad {
+  width: 200px;
+}
+
 .icon-1 {
   flex-basis: calc(33.3% - 30px);
   display: flex;
