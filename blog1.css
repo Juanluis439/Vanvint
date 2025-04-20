@@ -1,0 +1,68 @@
+.misura-container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.misura-container h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #d86c91;
+}
+
+.misura-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.misura-container p {
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.misura-container img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.misura-container a {
+  display: inline-block;
+  color: #d86c91;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .misura-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .misura-container h1 {
+    font-size: 22px;
+  }
+
+  .misura-container h3 {
+    font-size: 18px;
+  }
+
+  .misura-container p,
+  .misura-container a {
+    font-size: 18px;
+  }
+}

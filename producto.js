@@ -53,6 +53,11 @@ productos = [
   },
   { index: 37, name: "Punti luce", price: "7.00", img: "img39.jpg" },
   { index: 38, name: "Orecchino Flora", price: "14.00", img: "img40.jpg" },
+  { index: 39, name: "Anello Coquette", price: "14.90", img: "img41.jpeg" },
+  { index: 40, name: "Collana Heart", price: "14.90", img: "img42.jpeg" },
+  { index: 41, name: "Collana Di Perle", price: "6.50", img: "img43.jpg" },
+  { index: 42, name: "Collana Sofia", price: "15.90", img: "img44.jpg" },
+  { index: 43, name: "Collana Snake Silver", price: "10.90", img: "img45.jpg" },
 ];
 
 const contenedor = document.getElementById("lista-productos");

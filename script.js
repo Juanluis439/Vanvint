@@ -123,3 +123,35 @@ function vaciarCarrito() {
   localStorage.removeItem("carrito");
   return false;
 }
+
+// wsp
+
+function enviarWhatsApp() {
+  const telefono = "393409691101";
+
+  const productos = obtenerElementosLocalStorage();
+
+  if (productos.length === 0) {
+    alert("Il carrello è vuoto.");
+    return;
+  }
+
+  let mensaje = "Ciao! Sono interessato ad acquistare i seguenti prodotti:\n\n";
+
+  productos.forEach((producto) => {
+    mensaje += `Nome: ${producto.titulo}\n`;
+    mensaje += `Quantità: 1\n`; // Puedes modificar esto si manejas cantidades
+    mensaje += `Prezzo: ${producto.precio}\n`;
+    mensaje += `Immagine: ${producto.imagen}\n\n`;
+  });
+
+  const enlaceWhatsApp =
+    "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
+
+  window.open(enlaceWhatsApp, "_blank");
+}
+
+const btnAcquistare = document.getElementById("btnAcquistare");
+if (btnAcquistare) {
+  btnAcquistare.addEventListener("click", enviarWhatsApp);
+}

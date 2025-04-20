@@ -1,0 +1,65 @@
+.comprar-container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.comprar-container h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #d86c91;
+}
+
+.comprar-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.comprar-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.comprar-container img.cm3 {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .comprar-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .comprar-container h1 {
+    font-size: 22px;
+  }
+
+  .comprar-container h2 {
+    font-size: 18px;
+  }
+
+  .comprar-container p {
+    font-size: 18px;
+  }
+
+  .comprar-container img.cm3 {
+    max-width: 100%;
+    height: auto;
+  }
+}
