@@ -46,9 +46,17 @@ img {
 
 .logo {
   font-size: 25px;
-  color: #d86c91;
+  color: #a0153e;
   text-transform: uppercase;
   font-weight: 800;
+}
+
+.logo2 {
+  font-size: 25px;
+  color: #a0153e;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: none;
 }
 
 .menu .navbar ul li {
@@ -59,7 +67,7 @@ img {
 .menu .navbar ul li a {
   font-size: 18px;
   padding: 20px;
-  color: #d86c91;
+  color: #a0153e;
   display: block;
 }
 
@@ -156,7 +164,7 @@ td {
   font-size: 90px;
   text-transform: uppercase;
   line-height: 1;
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   margin-bottom: 15px;
 }
@@ -165,14 +173,14 @@ td {
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #d86c91;
+  color: #a0153e;
 }
 
 .btn-1 {
   display: inline-block;
   padding: 11px 25px;
   background-color: #111111;
-  color: #d86c91;
+  color: #a0153e;
   border-radius: 5px;
 }
 
@@ -205,7 +213,7 @@ td {
 }
 
 .ofert-txt h3 {
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   font-size: 25px;
   text-transform: uppercase;
@@ -216,7 +224,7 @@ td {
   display: inline-block;
   padding: 7px 10px;
   background-color: #111111;
-  color: #d86c91;
+  color: #a0153e;
   border-radius: 5px;
   font-size: 15px;
 }
@@ -236,7 +244,7 @@ td {
 }
 
 .products h2 {
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   text-transform: uppercase;
@@ -247,6 +255,7 @@ td {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
+  background-color: #f5f5f5;
 }
 
 .product {
@@ -263,7 +272,7 @@ td {
 
 .product h3 {
   font-size: 20px;
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -272,7 +281,7 @@ td {
 .product p,
 .precio {
   font-size: 16px;
-  color: #d86c91;
+  color: #a0153e;
   margin-bottom: 15px;
 }
 
@@ -308,14 +317,14 @@ td {
 
 .icon-txt h3 {
   font-size: 20px;
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
 
 .icon-txt p {
   font-size: 16px;
-  color: #d86c91;
+  color: #a0153e;
 }
 
 .blog {
@@ -338,7 +347,7 @@ td {
 
 .blog-1 h3 {
   font-size: 20px;
-  color: #d86c91;
+  color: #a0153e;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -346,7 +355,7 @@ td {
 
 .blog-1 p {
   font-size: 16px;
-  color: #d86c91;
+  color: #a0153e;
 }
 
 .footer {
@@ -376,6 +385,21 @@ td {
 
 .container-btn {
   flex-direction: column;
+}
+
+.notificacion {
+  position: absolute;
+  top: 5px; /* Un poco más cerca del carrito */
+  left: -20px; /* A la izquierda del icono */
+  background-color: #ff0000;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px; /* Tamaño reducido */
+  font-size: 12px; /* Texto más pequeño */
+  font-weight: bold;
+  display: none; /* Inicialmente oculta */
+  min-width: 20px; /* Para evitar que la burbuja sea demasiado pequeña */
+  text-align: center; /* Asegura que el texto esté centrado */
 }
 
 @media (max-width: 991px) {
@@ -410,6 +434,10 @@ td {
 
   .logo {
     display: none;
+  }
+
+  .logo2 {
+    display: block;
   }
 
   .submenu:hover #carrito {

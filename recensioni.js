@@ -1,7 +1,5 @@
 productos = [
   { index: 0, img: "img17.jpeg" },
-  { index: 1, img: "img18.jpeg" },
-  { index: 2, img: "img19.jpeg" },
   { index: 3, img: "img20.jpeg" },
   { index: 4, img: "img21.jpeg" },
   { index: 5, img: "img22.jpeg" },

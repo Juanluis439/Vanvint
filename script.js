@@ -26,7 +26,11 @@ function cargarEventListers() {
 
 function leerLocalStorage() {
   const elementos = obtenerElementosLocalStorage();
-  elementos.forEach((el) => insertarCarrito(el));
+  elementos.forEach((el) => {
+    insertarCarrito(el);
+    productosEnCarrito.add(el.id); // ✅ Aquí sí funciona
+  });
+  actualizarNotificacionCarrito();
 }
 
 function obtenerElementosLocalStorage() {
@@ -38,8 +42,10 @@ function obtenerElementosLocalStorage() {
 function comprarElemento(e) {
   e.preventDefault();
   if (e.target.classList.contains("agregar-carrito")) {
-    const elemento = e.target.parentElement.parentElement;
-    leerDatosElemento(elemento);
+    const elemento = e.target.closest(".product");
+    if (elemento) {
+      leerDatosElemento(elemento);
+    }
   }
 }
 
@@ -56,26 +62,21 @@ function leerDatosElemento(elemento) {
 function insertarCarrito(elemento) {
   if (productosEnCarrito.has(elemento.id)) {
     alert("Este producto ya está en el carrito.");
-    return;
+  } else {
+    productosEnCarrito.add(elemento.id);
+
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td><img src="${elemento.imagen}" width=100 /></td>
+      <td>${elemento.titulo}</td>
+      <td>${elemento.precio}</td>
+      <td><a href="#" class="borrar" data-id="${elemento.id}">X</a></td>
+    `;
+    lista.appendChild(row);
+    agregarElementoLocalStorage(elemento);
   }
 
-  const row = document.createElement("tr");
-  row.innerHTML = `
-        <td>
-            <img src="${elemento.imagen}" width=100 />
-        </td>
-        <td>
-            ${elemento.titulo}
-        </td>
-        <td>
-            ${elemento.precio}
-        </td>
-        <td>
-            <a href="#" class="borrar" data-id="${elemento.id}">X </a>
-        </td>
-    `;
-  lista.appendChild(row);
-  agregarElementoLocalStorage(elemento);
+  actualizarNotificacionCarrito(); // 👈 FUERA del if, se ejecuta siempre
 }
 
 function agregarElementoLocalStorage(elemento) {
@@ -85,6 +86,8 @@ function agregarElementoLocalStorage(elemento) {
   if (!existe) {
     elementos.push(elemento);
     localStorage.setItem("carrito", JSON.stringify(elementos));
+
+    actualizarNotificacionCarrito();
   }
 }
 
@@ -107,6 +110,7 @@ function eliminarElemento(e) {
     fila.remove();
     eliminarElementoLocalStorage(elementoId);
   }
+  actualizarNotificacionCarrito();
 }
 
 function eliminarElementoLocalStorage(id) {
@@ -120,7 +124,9 @@ function vaciarCarrito() {
     lista.removeChild(lista.firstChild);
   }
 
+  productosEnCarrito.clear();
   localStorage.removeItem("carrito");
+  actualizarNotificacionCarrito();
   return false;
 }
 
@@ -154,4 +160,16 @@ function enviarWhatsApp() {
 const btnAcquistare = document.getElementById("btnAcquistare");
 if (btnAcquistare) {
   btnAcquistare.addEventListener("click", enviarWhatsApp);
+}
+
+function actualizarNotificacionCarrito() {
+  const notificacion = document.getElementById("notificacionCarrito");
+  const productos = obtenerElementosLocalStorage();
+
+  if (productos.length > 0) {
+    notificacion.style.display = "inline-block";
+    notificacion.textContent = productos.length;
+  } else {
+    notificacion.style.display = "none";
+  }
 }
