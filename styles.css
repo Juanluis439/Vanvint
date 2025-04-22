@@ -265,9 +265,10 @@ td {
 }
 
 .product img {
-  width: 250px;
-  height: 370px;
-  margin-bottom: 20px;
+  width: 100%; /* Ocupará todo el ancho de la tarjeta */
+  height: 200px; /* Altura fija para que todas sean iguales */
+  object-fit: cover; /* Recorta la imagen para ajustarla sin deformarla */
+  border-radius: 8px;
 }
 
 .product h3 {
@@ -489,7 +490,7 @@ td {
   }
 
   .product img {
-    width: 200px;
+    width: 280px;
     height: 280px;
   }
 
