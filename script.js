@@ -88,7 +88,33 @@ function leerDatosElemento(elemento) {
 }
 
 function insertarCarrito(elemento) {
-  if (productosEnCarrito.has(elemento.id)) return;
+  const filaExistente = lista.querySelector(`tr[data-id="${elemento.id}"]`);
+
+  if (filaExistente) {
+    // Si ya existe en el DOM, actualiza cantidad y precio
+    const cantidadSpan = filaExistente.querySelector(".cantidad");
+    const precioUnitario = parseFloat(
+      filaExistente.querySelector(".precio-unitario").textContent
+    );
+    let cantidad = parseInt(cantidadSpan.textContent);
+    cantidad++;
+    cantidadSpan.textContent = cantidad;
+    filaExistente.querySelector(".precio-total").textContent = (
+      precioUnitario * cantidad
+    ).toFixed(2);
+
+    // También actualiza localStorage
+    let elementos = obtenerElementosLocalStorage();
+    const index = elementos.findIndex((el) => el.id === elemento.id);
+    if (index !== -1) {
+      elementos[index].cantidad = (elementos[index].cantidad || 1) + 1;
+      localStorage.setItem("carrito", JSON.stringify(elementos));
+    }
+
+    actualizarNotificacionCarrito();
+    actualizarTotalGeneral();
+    return;
+  }
 
   productosEnCarrito.add(elemento.id);
   elemento.cantidad = 1;
@@ -106,9 +132,9 @@ function insertarCarrito(elemento) {
       <span class="precio-total">${precioNumerico.toFixed(2)}</span> €
     </td>
     <td>
-    <button class="incrementar">+</button>  
-      <span class="cantidad">1</span>
-      <button class="decrementar">-</button>
+      <button class="incrementar" data-id="${elemento.id}">+</button>  
+      <span class="cantidad" data-id="${elemento.id}">1</span>
+      <button class="decrementar" data-id="${elemento.id}">-</button>
     </td>
     <td><a href="#" class="borrar" data-id="${elemento.id}">X</a></td>
   `;
