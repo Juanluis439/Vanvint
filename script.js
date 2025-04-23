@@ -26,6 +26,7 @@ lista.addEventListener("click", (e) => {
 
   cantidadSpan.textContent = cantidad;
   precioTotal.textContent = (precioUnitario * cantidad).toFixed(2);
+  actualizarTotalGeneral();
 });
 
 function cargarEventListers() {
@@ -115,6 +116,7 @@ function insertarCarrito(elemento) {
   lista.appendChild(row);
   agregarElementoLocalStorage(elemento);
   actualizarNotificacionCarrito();
+  actualizarTotalGeneral();
 }
 
 function agregarElementoLocalStorage(elemento) {
@@ -151,6 +153,7 @@ function eliminarElemento(e) {
     eliminarElementoLocalStorage(elementoId);
   }
   actualizarNotificacionCarrito();
+  actualizarTotalGeneral();
 }
 
 function eliminarElementoLocalStorage(id) {
@@ -168,6 +171,7 @@ function vaciarCarrito() {
   productosEnCarrito.clear();
   localStorage.removeItem("carrito");
   actualizarNotificacionCarrito();
+  actualizarTotalGeneral();
   return false;
 }
 
@@ -248,4 +252,18 @@ function manejarCantidad(e) {
 
   localStorage.setItem("carrito", JSON.stringify(elementos));
   actualizarNotificacionCarrito();
+}
+
+function actualizarTotalGeneral() {
+  const filas = lista.querySelectorAll("tr");
+  let total = 0;
+
+  filas.forEach((fila) => {
+    const precioTotal = parseFloat(
+      fila.querySelector(".precio-total").textContent
+    );
+    total += precioTotal;
+  });
+
+  document.getElementById("monto-total").textContent = total.toFixed(2);
 }
