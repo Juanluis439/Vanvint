@@ -328,7 +328,7 @@ productosFiltrados.forEach((producto) => {
   div.innerHTML = `
     <img src="img-new/${producto.img}" alt="${producto.name}">
     <h3>${producto.name}</h3>
-    <p class="precio"> ${producto.material}</p>
+    <p> ${producto.material}</p>
     <p class="precio">€ ${producto.price}</p>
     <a href="#" class="agregar-carrito btn-2" data-id="${producto.index}">
       aggiungi al carrello

@@ -179,7 +179,7 @@ td {
 .btn-1 {
   display: inline-block;
   padding: 11px 25px;
-  background-color: #111111;
+  background-color: #e9bead;
   color: #a0153e;
   border-radius: 5px;
 }
@@ -223,7 +223,7 @@ td {
 .btn-2 {
   display: inline-block;
   padding: 7px 10px;
-  background-color: #111111;
+  background-color: #e9bead;
   color: #a0153e;
   border-radius: 5px;
   font-size: 15px;
@@ -401,6 +401,47 @@ td {
   display: none; /* Inicialmente oculta */
   min-width: 20px; /* Para evitar que la burbuja sea demasiado pequeña */
   text-align: center; /* Asegura que el texto esté centrado */
+}
+
+button.incrementar,
+button.decrementar {
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4caf50; /* verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.incrementar:hover,
+button.decrementar:hover {
+  background-color: #45a049; /* verde más oscuro */
+}
+
+.cantidad {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 8px;
+  display: inline-block;
+  min-width: 20px;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  cursor: pointer;
+}
+
+#div2 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  cursor: pointer;
 }
 
 @media (max-width: 991px) {
