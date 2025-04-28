@@ -22,6 +22,7 @@ productos = [
   { index: 22, img: "img7.jpeg" },
   { index: 23, img: "img8.jpeg" },
   { index: 24, img: "img9.jpeg" },
+  { index: 25, img: "img26.jpeg" },
 ];
 
 const contenedor = document.getElementById("lista-productos");
