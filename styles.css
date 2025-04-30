@@ -384,6 +384,10 @@ td {
   margin-bottom: 10px;
 }
 
+i {
+  color: #ffffff;
+}
+
 .container-btn {
   flex-direction: column;
 }
