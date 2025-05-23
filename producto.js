@@ -346,6 +346,48 @@ productos = [
     material: "acciaio inox",
     price: "12.00",
     img: "img54.jpeg",
+  },,{
+    index: 54,
+    name: "Collana Zoe",
+    material: "acciaio inox",
+    price: "12.50",
+    img: "img55.jpg",
+  },,{
+    index: 55,
+    name: "Collana Adele",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img56.jpg",
+  },{
+    index: 56,
+    name: "Collana Iris",
+    material: "acciaio inox",
+    price: "12.00",
+    img: "img57.jpg",
+  },,{
+    index: 57,
+    name: "Orecchini Punto Luce Grande ",
+    material: "Argento 925",
+    price: "12.50",
+    img: "img58.png",
+  },,{
+    index: 58,
+    name: "Orecchini Punto Luce Cuore",
+    material: "Argento 925",
+    price: "12.00",
+    img: "img59.jpg",
+  },,{
+    index: 59,
+    name: "Orecchini Punto Luce Quadrato",
+    material: "Argento 925",
+    price: "12.00",
+    img: "img60.jpg",
+  },{
+    index: 60,
+    name: "Collana mia",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img61.jpeg",
   },
 ];
 

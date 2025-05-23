@@ -39,6 +39,7 @@ function cargarEventListers() {
       carrito.addEventListener("click", (e) => {
         eliminarElemento(e);
         manejarCantidad(e); // 👈 añade esta función
+        actualizarTotalGeneral();
       });
     }
   }
@@ -205,7 +206,6 @@ function vaciarCarrito() {
 
 function enviarWhatsApp() {
   const telefono = "393409691101";
-
   const productos = obtenerElementosLocalStorage();
 
   if (productos.length === 0) {
@@ -214,19 +214,35 @@ function enviarWhatsApp() {
   }
 
   let mensaje = "Ciao! Sono interessato ad acquistare i seguenti prodotti:\n\n";
+  let total = 0;
 
   productos.forEach((producto) => {
+    const precio = parseFloat(producto.precio.replace(/[^\d.]/g, ""));
+    const cantidad = producto.cantidad || 1;
+    const subtotal = precio * cantidad;
+
     mensaje += `Nome: ${producto.titulo}\n`;
-    mensaje += `Quantità: 1\n`; // Puedes modificar esto si manejas cantidades
-    mensaje += `Prezzo: ${producto.precio}\n`;
-    mensaje += `Immagine: ${producto.imagen}\n\n`;
+    mensaje += `Quantità: ${cantidad}\n`;
+    mensaje += `Prezzo unitario: ${precio.toFixed(2)} €\n`;
+    mensaje += `Immagine: ${producto.imagen}\n`;
+    /*mensaje += `Subtotal: ${subtotal.toFixed(2)} €\n\n`;*/
+
+    total += subtotal;
   });
+//MODICFICA EL DESCUENTO Y DESCOMENTA TODO PARA QUE FUNCIONE
+  const descuento = total * 0.20;
+  const totalConDescuento = total - descuento;
+
+  /*mensaje += `Totale senza sconto: ${total.toFixed(2)} €\n`;
+  mensaje += `Sconto del 20%: -${descuento.toFixed(2)} €\n`;
+  mensaje += `Totale con sconto: ${totalConDescuento.toFixed(2)} €\n`;*/
 
   const enlaceWhatsApp =
     "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
 
   window.open(enlaceWhatsApp, "_blank");
 }
+
 
 const btnAcquistare = document.getElementById("btnAcquistare");
 if (btnAcquistare) {
@@ -291,5 +307,16 @@ function actualizarTotalGeneral() {
     total += precioTotal;
   });
 
+  const descuento = total * 0.20;
+  const totalConDescuento = total - descuento;
+
+  // Mostrar el total original
   document.getElementById("monto-total").textContent = total.toFixed(2);
+
+  // Mostrar el total con descuento si existe un contenedor adicional
+  const descuentoElem = document.getElementById("monto-descuento");
+  if (descuentoElem) {
+    descuentoElem.textContent = totalConDescuento.toFixed(2);
+  }
 }
+
