@@ -388,6 +388,18 @@ productos = [
     material: "acciaio inox",
     price: "13.00",
     img: "img61.jpeg",
+  },{
+    index: 61,
+    name: "Orecchini Elsa Gold",
+    material: "acciaio inox",
+    price: "10.90",
+    img: "img62.jpeg",
+  },{
+    index: 62,
+    name: "Orecchini Elsa Silver",
+    material: "acciaio inox",
+    price: "10.90",
+    img: "img63.jpeg",
   },
 ];
 
