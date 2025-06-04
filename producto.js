@@ -251,13 +251,13 @@ productos = [
     price: "7.00",
     img: "img39.jpg",
   },
-  {
+  /*{
     index: 38,
     name: "Orecchini Flora",
     material: "Argento s925",
     price: "14.00",
     img: "img40.jpg",
-  },
+  }*/,
   {
     index: 39,
     name: "Anello Coquette",
