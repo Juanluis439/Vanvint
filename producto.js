@@ -300,9 +300,9 @@ productos = [
     img: "img46.png",
   },{
     index: 45,
-    name: "Collana Snake Silver",
-    material: "acciaio inox",
-    price: "10.90",
+    name: "Mono Orecchino Flora",
+    material: "argento s925",
+    price: "14.00",
     img: "img47.png",
   },{
     index: 46,
