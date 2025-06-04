@@ -300,7 +300,7 @@ productos = [
     img: "img46.png",
   },{
     index: 45,
-    name: "Mono Orecchino Flora",
+    name: "Mono Orecchini Flora",
     material: "argento s925",
     price: "14.00",
     img: "img47.png",
