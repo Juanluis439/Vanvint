@@ -400,6 +400,42 @@ productos = [
     material: "acciaio inox",
     price: "10.90",
     img: "img63.jpeg",
+  },{
+    index: 63,
+    name: "Anello Double",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img64.jpeg",
+  },{
+    index: 64,
+    name: "Anello Livia",
+    material: "acciaio inox",
+    price: "12.00",
+    img: "img65.jpeg",
+  },{
+    index: 65,
+    name: "Anello Giulia",
+    material: "acciaio inox",
+    price: "11.00",
+    img: "img66.jpeg",
+  },{
+    index: 66,
+    name: "Anello chunky Alice",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img67.jpeg",
+  },{
+    index: 67,
+    name: "Anello Ludo",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img68.jpeg",
+  },{
+    index: 68,
+    name: "Anello chunky britney",
+    material: "acciaio inox",
+    price: "12.00",
+    img: "img69.jpeg",
   },
 ];
 
