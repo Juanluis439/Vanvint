@@ -436,6 +436,30 @@ productos = [
     material: "acciaio inox",
     price: "12.00",
     img: "img69.jpeg",
+  },{
+    index: 69,
+    name: "Orecchini Cerchietti zirconati",
+    material: "acciaio inox",
+    price: "8.00",
+    img: "img70.jpeg",
+  },{
+    index: 70,
+    name: "Orecchini Piercing trifoglio",
+    material: "acciaio inox",
+    price: "7.00",
+    img: "img71.jpeg",
+  },{
+    index: 71,
+    name: "OrecchiniPiercing quadrifoglio",
+    material: "acciaio inox",
+    price: "7.00",
+    img: "img72.jpeg",
+  },{
+    index: 72,
+    name: "Orecchini Esther",
+    material: "acciaio inox",
+    price: "14.00",
+    img: "img73.jpeg",
   },
 ];
 
