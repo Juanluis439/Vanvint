@@ -460,6 +460,12 @@ productos = [
     material: "acciaio inox",
     price: "14.00",
     img: "img73.jpeg",
+  },{
+    index: 73,
+    name: "Genchetti Multi Collana",
+    material: "acciaio inox",
+    price: "5.00",
+    img: "img74.jpeg",
   },
 ];
 
