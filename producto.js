@@ -506,7 +506,7 @@ productos = [
     name: "Collana Lina",
     material: "acciaio inox",
     price: "15.00",
-    img: "img75.jpeg",
+    img: "img75.jpg",
   },
 ];
 
