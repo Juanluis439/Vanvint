@@ -251,14 +251,14 @@ productos = [
     price: "7.00",
     img: "img39.jpg",
   },
+  ,
   /*{
     index: 38,
     name: "Orecchini Flora",
     material: "Argento s925",
     price: "14.00",
     img: "img40.jpg",
-  }*/,
-  {
+  }*/ {
     index: 39,
     name: "Anello Coquette",
     material: "Argento s925",
@@ -292,180 +292,221 @@ productos = [
     material: "acciaio inox",
     price: "10.90",
     img: "img45.jpg",
-  },{
+  },
+  {
     index: 44,
     name: "Bracciale Isabella Silver",
     material: "acciaio inox",
     price: "9.90",
     img: "img46.png",
-  },{
+  },
+  {
     index: 45,
     name: "Mono Orecchini Flora",
     material: "argento s925",
     price: "14.00",
     img: "img47.png",
-  },{
+  },
+  {
     index: 46,
     name: "Bracciale Ginevra Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img48.png",
-  },{
+  },
+  {
     index: 47,
     name: "Bracciale Isabella Gold",
     material: "acciaio inox",
     price: "9.90",
     img: "img49.png",
-  },{
+  },
+  {
     index: 49,
     name: "Bracciale Emma Silver",
     material: "acciaio inox",
     price: "12.00",
     img: "img50.jpg",
-  },{
+  },
+  {
     index: 50,
     name: "Orecchini Luna Silver",
     material: "acciaio inox",
     price: "12.00",
     img: "img51.jpg",
-  },{
+  },
+  {
     index: 51,
     name: "Bracciale Emma Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img52.png",
-  },{
+  },
+  {
     index: 52,
     name: "Orecchini Luna Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img53.jpg",
-  },{
+  },
+  {
     index: 53,
     name: "Bracciale Ginevra Silver",
     material: "acciaio inox",
     price: "12.00",
     img: "img54.jpeg",
-  },,{
+  },
+  ,
+  {
     index: 54,
     name: "Collana Zoe",
     material: "acciaio inox",
     price: "12.50",
     img: "img55.jpg",
-  },,{
+  },
+  ,
+  {
     index: 55,
     name: "Collana Adele",
     material: "acciaio inox",
     price: "13.00",
     img: "img56.jpg",
-  },{
+  },
+  {
     index: 56,
     name: "Collana Iris",
     material: "acciaio inox",
     price: "12.00",
     img: "img57.jpg",
-  },,{
+  },
+  ,
+  {
     index: 57,
     name: "Orecchini Punto Luce Grande ",
     material: "Argento 925",
     price: "12.50",
     img: "img58.png",
-  },,{
+  },
+  ,
+  {
     index: 58,
     name: "Orecchini Punto Luce Cuore",
     material: "Argento 925",
     price: "12.00",
     img: "img59.jpg",
-  },,{
+  },
+  ,
+  {
     index: 59,
     name: "Orecchini Punto Luce Quadrato",
     material: "Argento 925",
     price: "12.00",
     img: "img60.jpg",
-  },{
+  },
+  {
     index: 60,
     name: "Collana mia",
     material: "acciaio inox",
     price: "13.00",
     img: "img61.jpeg",
-  },{
+  },
+  {
     index: 61,
     name: "Orecchini Elsa Gold",
     material: "acciaio inox",
     price: "10.90",
     img: "img62.jpeg",
-  },{
+  },
+  {
     index: 62,
     name: "Orecchini Elsa Silver",
     material: "acciaio inox",
     price: "10.90",
     img: "img63.jpeg",
-  },{
+  },
+  {
     index: 63,
     name: "Anello Double",
     material: "acciaio inox",
     price: "13.00",
     img: "img64.jpeg",
-  },{
+  },
+  {
     index: 64,
     name: "Anello Livia",
     material: "acciaio inox",
     price: "12.00",
     img: "img65.jpeg",
-  },{
+  },
+  {
     index: 65,
     name: "Anello Giulia",
     material: "acciaio inox",
     price: "11.00",
     img: "img66.jpeg",
-  },{
+  },
+  {
     index: 66,
     name: "Anello chunky Alice",
     material: "acciaio inox",
     price: "13.00",
     img: "img67.jpeg",
-  },{
+  },
+  {
     index: 67,
     name: "Anello Ludo",
     material: "acciaio inox",
     price: "13.00",
     img: "img68.jpeg",
-  },{
+  },
+  {
     index: 68,
     name: "Anello chunky britney",
     material: "acciaio inox",
     price: "12.00",
     img: "img69.jpeg",
-  },{
+  },
+  {
     index: 69,
     name: "Orecchini Cerchietti zirconati",
     material: "acciaio inox",
     price: "8.00",
     img: "img70.jpeg",
-  },{
+  },
+  {
     index: 70,
     name: "Orecchini Piercing trifoglio",
     material: "acciaio inox",
     price: "7.00",
     img: "img71.jpeg",
-  },{
+  },
+  {
     index: 71,
     name: "OrecchiniPiercing quadrifoglio",
     material: "acciaio inox",
     price: "7.00",
     img: "img72.jpeg",
-  },{
+  },
+  {
     index: 72,
     name: "Orecchini Esther",
     material: "acciaio inox",
     price: "14.00",
     img: "img73.jpeg",
-  },{
+  },
+  {
     index: 73,
-    name: "Genchetti Multi Collana",
+    name: "Ganchetti Multi Collana",
     material: "acciaio inox",
     price: "5.00",
     img: "img74.jpeg",
+  },
+  {
+    index: 74,
+    name: "Collana Lina",
+    material: "acciaio inox",
+    price: "15.00",
+    img: "img75.jpeg",
   },
 ];
 
