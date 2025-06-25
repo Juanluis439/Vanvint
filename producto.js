@@ -508,6 +508,20 @@ productos = [
     price: "15.00",
     img: "img75.jpg",
   },
+  {
+    index: 75,
+    name: "Bracciale Luna",
+    material: "acciaio inox",
+    price: "10.00",
+    img: "img76.jpeg",
+  },
+  {
+    index: 77,
+    name: "Bracciale Sole",
+    material: "acciaio inox",
+    price: "10.00",
+    img: "img77.jpeg",
+  },
 ];
 
 const contenedor = document.getElementById("lista-productos");
