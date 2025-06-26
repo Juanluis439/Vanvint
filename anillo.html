@@ -42,6 +42,22 @@
         margin-top: 20px;
         color: #333;
       }
+      #calibration-section h2 {
+        color: #b47b84;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      #coin-circle {
+        border: 2px solid #555;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        margin-bottom: 20px;
+        transition: width 0.2s ease, height 0.2s ease;
+      }
+
       @media (max-width: 480px) {
         body {
           padding: 10px;
@@ -77,25 +93,67 @@
       al 100%. No uses zoom, y prueba con una moneda como referencia.
     </p>
 
-    <div class="circle-container">
-      <div id="ring-circle"></div>
+    <div id="calibration-section">
+      <h2>Calibrar pantalla</h2>
+      <p>
+        Coloca una moneda de <strong>10 pesos dominicanos</strong> sobre el
+        círculo y usa el control para que coincida con el borde.
+      </p>
+
+      <div class="circle-container">
+        <div id="coin-circle"></div>
+      </div>
+
+      <label for="coinRange">Ajustar tamaño:</label>
+      <input type="range" id="coinRange" min="20" max="60" value="45" />
+
+      <button onclick="confirmCalibration()">Usar esta calibración</button>
     </div>
 
-    <label for="diameterRange"
-      >Diámetro: <span id="diameterValue">16</span> mm</label
-    >
-    <input
-      type="range"
-      id="diameterRange"
-      min="14"
-      max="26"
-      step="0.1"
-      value="16"
-    />
+    <div id="ring-section" style="display: none">
+      <!-- Aquí va el medidor de anillo que ya hicimos -->
+      <div class="circle-container">
+        <div id="ring-circle"></div>
+      </div>
 
-    <p class="result">Talla aproximada: <span id="ringSize">5</span> (US)</p>
+      <label for="diameterRange"
+        >Diámetro: <span id="diameterValue">16</span> mm</label
+      >
+      <input
+        type="range"
+        id="diameterRange"
+        min="14"
+        max="26"
+        step="0.1"
+        value="16"
+      />
+
+      <p class="result">Talla aproximada: <span id="ringSize">5</span> (US)</p>
+    </div>
 
     <script>
+      let pxPorMm = 3.78; // valor por defecto (lo vamos a recalibrar)
+
+      const coinRange = document.getElementById("coinRange");
+      const coinCircle = document.getElementById("coin-circle");
+
+      coinRange.addEventListener("input", () => {
+        const px = parseInt(coinRange.value);
+        coinCircle.style.width = px + "px";
+        coinCircle.style.height = px + "px";
+      });
+
+      function confirmCalibration() {
+        const coinPx = parseInt(coinRange.value);
+        const realCoinSizeMm = 24.5; // diámetro real de moneda de 10 pesos
+        pxPorMm = coinPx / realCoinSizeMm;
+
+        document.getElementById("calibration-section").style.display = "none";
+        document.getElementById("ring-section").style.display = "block";
+
+        updateRing(); // actualizar círculo inicial del medidor con escala correcta
+      }
+
       const diameterRange = document.getElementById("diameterRange");
       const diameterValue = document.getElementById("diameterValue");
       const ringCircle = document.getElementById("ring-circle");
