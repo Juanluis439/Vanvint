@@ -19,7 +19,9 @@
       .circle-container {
         display: flex;
         justify-content: center;
-        margin: 30px 0;
+        align-items: center;
+        margin: 20px 0;
+        overflow-x: auto; /* permite mover lateralmente si el círculo es muy grande */
       }
 
       #ring-circle {
@@ -70,6 +72,10 @@
       Coloca tu anillo en la pantalla y ajusta el círculo hasta que coincida con
       el interior.
     </p>
+    <p style="font-weight: bold; color: red">
+      Asegúrate de tener el brillo al máximo y que la escala de tu pantalla esté
+      al 100%. No uses zoom, y prueba con una moneda como referencia.
+    </p>
 
     <div class="circle-container">
       <div id="ring-circle"></div>
@@ -82,7 +88,7 @@
       type="range"
       id="diameterRange"
       min="14"
-      max="24"
+      max="26"
       step="0.1"
       value="16"
     />
