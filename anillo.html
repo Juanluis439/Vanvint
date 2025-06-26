@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Medidor de Anillos</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: #fffbe6;
+      }
+
+      h1 {
+        color: #b47b84;
+      }
+
+      .circle-container {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+      }
+
+      #ring-circle {
+        border: 2px dashed #b47b84;
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 20px;
+      }
+
+      input[type="range"] {
+        width: 80%;
+        margin-top: 20px;
+      }
+
+      .result {
+        font-size: 1.2em;
+        margin-top: 20px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calcula tu talla de anillo</h1>
+    <p>
+      Coloca tu anillo en la pantalla y ajusta el círculo hasta que coincida con
+      el interior.
+    </p>
+
+    <div class="circle-container">
+      <div id="ring-circle"></div>
+    </div>
+
+    <label for="diameterRange"
+      >Diámetro: <span id="diameterValue">16</span> mm</label
+    >
+    <input
+      type="range"
+      id="diameterRange"
+      min="14"
+      max="24"
+      step="0.1"
+      value="16"
+    />
+
+    <p class="result">Talla aproximada: <span id="ringSize">5</span> (US)</p>
+
+    <script>
+      const diameterRange = document.getElementById("diameterRange");
+      const diameterValue = document.getElementById("diameterValue");
+      const ringCircle = document.getElementById("ring-circle");
+      const ringSize = document.getElementById("ringSize");
+
+      diameterRange.addEventListener("input", () => {
+        const diameter = parseFloat(diameterRange.value);
+        diameterValue.textContent = diameter;
+
+        // Convert mm to px (suponiendo 1 mm ≈ 3.78 px para pantallas estándar)
+        const diameterInPx = diameter * 3.78;
+        ringCircle.style.width = diameterInPx + "px";
+        ringCircle.style.height = diameterInPx + "px";
+
+        // Estimar talla en base al diámetro (tabla US)
+        const size = getRingSizeFromDiameter(diameter);
+        ringSize.textContent = size;
+      });
+
+      function getRingSizeFromDiameter(d) {
+        // Tabla simplificada de tallas US basada en diámetro (mm)
+        const tabla = [
+          { d: 14.8, size: 4 },
+          { d: 15.6, size: 5 },
+          { d: 16.5, size: 6 },
+          { d: 17.3, size: 7 },
+          { d: 18.1, size: 8 },
+          { d: 19.0, size: 9 },
+          { d: 19.8, size: 10 },
+          { d: 20.6, size: 11 },
+          { d: 21.4, size: 12 },
+          { d: 22.2, size: 13 },
+        ];
+
+        for (let i = 0; i < tabla.length; i++) {
+          if (d <= tabla[i].d) return tabla[i].size;
+        }
+        return "13+";
+      }
+    </script>
+  </body>
+</html>
