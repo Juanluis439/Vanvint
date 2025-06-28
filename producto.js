@@ -522,6 +522,13 @@ productos = [
     price: "10.00",
     img: "img77.jpeg",
   },
+  {
+    index: 78,
+    name: "Orecchini Hoops Lisa",
+    material: "acciaio inox",
+    price: "8.00",
+    img: "img78.jpeg",
+  },
 ];
 
 const contenedor = document.getElementById("lista-productos");
