@@ -516,18 +516,66 @@ productos = [
     img: "img76.jpeg",
   },
   {
-    index: 77,
+    index: 76,
     name: "Bracciale Sole",
     material: "acciaio inox",
     price: "10.00",
     img: "img77.jpeg",
   },
   {
-    index: 78,
+    index: 77,
     name: "Orecchini Hoops Lisa",
     material: "acciaio inox",
     price: "8.00",
     img: "img78.jpeg",
+  },{
+    index: 78,
+    name: "Anello Gemini",
+    material: "acciaio inox",
+    price: "13.00",
+    img: "img79.jpeg",
+  },{
+    index: 79,
+    name: "Orecchini Nedda Gold",
+    material: "acciaio inox",
+    price: "10.00",
+    img: "img80.jpeg",
+  },{
+    index: 80,
+    name: "Orecchini Saliscendi iride Silver",
+    material: "Argento s925",
+    price: "14.00",
+    img: "img81.jpeg",
+  },{
+    index: 81,
+    name: "Orecchini Gine Silver",
+    material: "Argento s925",
+    price: "15.00",
+    img: "img82.jpeg",
+  },{
+    index: 82,
+    name: "Orecchini Set Alemania Gold",
+    material: "Acciaio inox",
+    price: "15.00",
+    img: "img83.jpeg",
+  },{
+    index: 83,
+    name: "Anello Alba Silver",
+    material: "Argento s925",
+    price: "14.50",
+    img: "img84.jpeg",
+  },{
+    index: 84,
+    name: "Orecchini Piercing in titanio",
+    material: "",
+    price: "9,50 ( l’uno)",
+    img: "img85.jpeg",
+  },{
+    index: 85,
+    name: "Orecchini Piercing in titanio",
+    material: "",
+    price: "9,50 ( l’uno)",
+    img: "img86.jpeg",
   },
 ];
 
