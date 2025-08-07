@@ -104,7 +104,7 @@ productos = [
     price: "9.00",
     img: "img15.jpg",
   },
-  {
+  /*{
     index: 16,
     name: "Orecchini Aura",
     material: "acciaio inox",
@@ -124,7 +124,7 @@ productos = [
     material: "acciaio inox",
     price: "7.00",
     img: "img19.jpg",
-  },
+  },*/
   {
     index: 19,
     name: "Orecchini Piercing cerchietto",
@@ -139,13 +139,13 @@ productos = [
     price: "14.86",
     img: "img21.png",
   },
-  {
+  /*{
     index: 21,
     name: "Orecchini Ros",
     material: "acciaio inox",
     price: "12.90",
     img: "img22.png",
-  },
+  },*/
   {
     index: 22,
     name: "Orecchini Drop",
@@ -174,13 +174,13 @@ productos = [
     price: "7.00",
     img: "img26.jpg",
   },
-  {
+  /*{
     index: 26,
     name: "Orecchini Piercing Aila",
     material: "acciaio inox",
     price: "6.50",
     img: "img27.jpg",
-  },
+  },*/
   {
     index: 27,
     name: "Orecchini Laura",
@@ -272,13 +272,13 @@ productos = [
     price: "14.90",
     img: "img42.jpeg",
   },
-  {
+  /*{
     index: 41,
     name: "Collana Di Perle",
     material: "acciaio inox",
     price: "6.50",
     img: "img43.jpg",
-  },
+  },*/
   {
     index: 42,
     name: "Collana Sofia",
