@@ -1,0 +1,80 @@
+.faq-container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.faq-container h1 {
+  font-size: 26px;
+  color: #a0153e;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center; /* Centramos el h1 */
+}
+
+.faq-container h3 {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #555;
+  text-align: center; /* Centramos el h3 */
+}
+
+.faq-container h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+}
+
+.faq-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.faq-container li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.faq-container a {
+  color: #a0153e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faq-container a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .faq-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .faq-container h1 {
+    font-size: 22px;
+  }
+
+  .faq-container h3 {
+    font-size: 20px;
+  }
+
+  .faq-container p,
+  .faq-container li,
+  .faq-container a {
+    font-size: 18px;
+  }
+}
