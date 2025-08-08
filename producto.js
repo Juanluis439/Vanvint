@@ -608,7 +608,7 @@ productos = [
     img: "img91.jpeg",
   },{
     index: 91,
-    name: "Collana Perla Silver",
+    name: "Collana Perla",
     material: "Acciaio Inox",
     price: "14,50",
     img: "img92.jpeg",
@@ -652,7 +652,7 @@ productos = [
     index: 98,
     name: "Collana Estiva Gold",
     material: "Acciaio Inox",
-    price: "13,50",
+    price: "13,50 ( l’uno)",
     img: "img99.jpeg",
   },
 ];
