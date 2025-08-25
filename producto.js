@@ -670,6 +670,31 @@ if (categoria) {
   );
 }
 
+function filtrarPorNombre(palabra) {
+  // Limpiar contenido actual
+  contenedor.innerHTML = "";
+
+  const filtrados = productos.filter(p =>
+    p.name.toLowerCase().includes(palabra.toLowerCase())
+  );
+
+  filtrados.forEach((producto) => {
+    const div = document.createElement("div");
+    div.classList.add("product");
+    div.innerHTML = `
+      <img src="img-new/${producto.img}" alt="${producto.name}">
+      <h3>${producto.name}</h3>
+      <p> ${producto.material}</p>
+      <p class="precio">€ ${producto.price}</p>
+      <a href="#" class="agregar-carrito btn-2" data-id="${producto.index}">
+        aggiungi al carrello
+      </a>
+    `;
+    contenedor.appendChild(div);
+  });
+}
+
+
 productosFiltrados.forEach((producto) => {
   const div = document.createElement("div");
   div.classList.add("product");

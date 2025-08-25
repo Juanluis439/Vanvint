@@ -102,8 +102,6 @@ img {
   background-color: #4e4b5076;
   padding: 20px;
   min-width: 400px;
-  max-height: 300px; /* 👈 Altura máxima del carrito */
-  overflow-y: auto;
 }
 
 .carrito-fijo {
@@ -525,7 +523,7 @@ button.decrementar:hover {
   }
 
   .product-content {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
 
