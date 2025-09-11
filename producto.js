@@ -654,6 +654,12 @@ productos = [
     material: "Acciaio Inox",
     price: "13,50 ( l’uno)",
     img: "img99.jpeg",
+  },{
+    index: 99,
+    name: "Anello Olga",
+    material: "Acciaio Inox",
+    price: "12,00",
+    img: "img100.jpeg",
   },
 ];
 
