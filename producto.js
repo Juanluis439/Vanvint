@@ -148,17 +148,17 @@ productos = [
   },*/
   {
     index: 22,
-    name: "Orecchini Drop",
+    name: "Orecchini Goccia Gold",
     material: "acciaio inox",
-    price: "10.90",
-    img: "img23.jpg",
+    price: "11.90",
+    img: "img23.jpeg",
   },
   {
     index: 23,
-    name: "Orecchini Saliscendi",
+    name: "Orecchini Saliscendi Cuore Gold",
     material: "Argento s925",
-    price: "12.00",
-    img: "img24.jpg",
+    price: "12.90",
+    img: "img24.jpeg",
   },
   {
     index: 24,
@@ -167,7 +167,7 @@ productos = [
     price: "12.50",
     img: "img25.jpg",
   },
-  {
+  /*{
     index: 25,
     name: "Orecchini Piercing Flower",
     material: "Argento s925",
@@ -218,10 +218,10 @@ productos = [
   },
   {
     index: 32,
-    name: "Orecchini Drop Silver",
+    name: "Orecchini Goccia Silver",
     material: "acciaio inox",
-    price: "10.00",
-    img: "img34.jpg",
+    price: "11.90",
+    img: "img34.jpeg",
   },
   {
     index: 33,
@@ -230,12 +230,19 @@ productos = [
     price: "14.00",
     img: "img35.jpg",
   },
-  {
+  /*{
     index: 34,
     name: "Orecchini Delia",
     material: "acciaio inox",
     price: "10.00",
     img: "img36.jpg",
+  },*/
+  {
+    index: 35,
+    name: "Orecchini Set Delia",
+    material: "acciaio inox",
+    price: "17.00",
+    img: "img28.jpeg",
   },
   {
     index: 36,
@@ -660,6 +667,30 @@ productos = [
     material: "Acciaio Inox",
     price: "12,00",
     img: "img100.jpeg",
+  },{
+    index: 100,
+    name: "Orecchini Saliscendi Cuore Silver",
+    material: "Argento s925",
+    price: "12,90",
+    img: "img101.jpeg",
+  },{
+    index: 101,
+    name: "Orecchini Giorgia Gold",
+    material: "acciaio inox",
+    price: "11,00",
+    img: "img102.jpeg",
+  },{
+    index: 102,
+    name: "Orecchini Nivea Gold",
+    material: "argento s925",
+    price: "15,00",
+    img: "img103.jpeg",
+  },{
+    index: 103,
+    name: "Orecchini cerchietti Amber",
+    material: "acciaio inox",
+    price: "08,00",
+    img: "img104.jpeg",
   },
 ];
 
