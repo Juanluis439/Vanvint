@@ -514,15 +514,22 @@ button.decrementar:hover {
     margin-bottom: 30px;
   }
 
-  .products {
-    padding: 0 30px 30px 30px;
-  }
+  .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%; /* importante */
+}
 
   .products h2 {
     margin-bottom: 30px;
   }
 
  .product-content {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
