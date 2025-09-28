@@ -1,105 +1,105 @@
 productos = [
   {
     index: 0,
-    name: "Anello Lexa",
+    name: "Anello Lexa Silver",
     material: "Argento s925",
     price: "13.90",
     img: "img1.jpg",
   },
   {
     index: 1,
-    name: "Anello Daris",
+    name: "Anello Daris Silver",
     material: "Argento s925",
     price: "14.00",
     img: "img2.jpg",
   },
   {
     index: 2,
-    name: "Anello Maria",
+    name: "Anello Maria Silver",
     material: "Argento s925",
     price: "13.90",
     img: "img3.jpg",
   },
   {
     index: 3,
-    name: "Anello Anabel",
+    name: "Anello Anabel Silver",
     material: "Argento s925",
     price: "13.90",
     img: "img4.jpg",
   },
   {
     index: 4,
-    name: "Anello Snake",
+    name: "Anello Snake Silver",
     material: "Argento s925",
     price: "13.90",
     img: "img5.jpg",
   },
   {
     index: 5,
-    name: "Anello Infinity",
+    name: "Anello Infinity Silver",
     material: "Argento s925",
     price: "12.90",
     img: "img6.jpg",
   },
   {
     index: 6,
-    name: "Anello Susan",
+    name: "Anello Susan Silver",
     material: "Argento s925",
     price: "14.90",
     img: "img7.jpg",
   },
   {
     index: 7,
-    name: "Anello Valery",
+    name: "Anello Valery Silver",
     material: "Argento s925",
     price: "10.00",
     img: "img8.jpg",
   },
   {
     index: 8,
-    name: "Anello Andrea",
+    name: "Anello Andrea Silver",
     material: "Argento s925",
     price: "14.90",
     img: "img9.png",
   },
   {
     index: 9,
-    name: "Anello Mon Amour",
+    name: "Anello Mon Amour Silver",
     material: "Argento s925",
     price: "15.00",
     img: "img10.jpg",
   },
   {
     index: 10,
-    name: "Anello Double",
+    name: "Anello Double Gold",
     material: "acciaio inox",
     price: "11.90",
     img: "img11.jpg",
   },
   {
     index: 11,
-    name: "Anello Isabel",
+    name: "Anello Isabel Gold",
     material: "Argento s925",
     price: "13.90",
     img: "img12.jpg",
   },
   {
     index: 12,
-    name: "Anello Vivian",
+    name: "Anello Vivian Gold",
     material: "Argento s925",
     price: "12.90",
     img: "img13.jpg",
   },
   {
     index: 13,
-    name: "Anello Briar",
+    name: "Anello Briar Gold",
     material: "Argento s925",
     price: "12.00",
     img: "img14.jpg",
   },
   {
     index: 14,
-    name: "Anello Laura",
+    name: "Anello Laura Gold",
     material: "acciaio inox",
     price: "9.00",
     img: "img15.jpg",
@@ -127,14 +127,14 @@ productos = [
   },*/
   {
     index: 19,
-    name: "Orecchini Piercing cerchietto",
+    name: "Orecchini Piercing cerchietto Gold",
     material: "acciaio inox",
     price: "5.00",
     img: "img20.jpg",
   },
   {
     index: 20,
-    name: "Bracciale Aurora",
+    name: "Bracciale Aurora Gold",
     material: "acciaio inox",
     price: "14.86",
     img: "img21.png",
@@ -162,7 +162,7 @@ productos = [
   },
   {
     index: 24,
-    name: "Orecchini Ámbar",
+    name: "Orecchini Ámbar Gold",
     material: "acciaio inox",
     price: "12.50",
     img: "img25.jpg",
@@ -183,35 +183,35 @@ productos = [
   },*/
   {
     index: 27,
-    name: "Orecchini Laura",
+    name: "Orecchini Laura Gold",
     material: "acciaio inox",
     price: "10.90",
     img: "img29.jpg",
   },
   {
     index: 28,
-    name: "Orecchini Nadette",
+    name: "Orecchini Nadette Gold",
     material: "acciaio inox",
     price: "10.90",
     img: "img30.jpg",
   },
   {
     index: 29,
-    name: "Earcuff orecchini completo",
+    name: "Earcuff orecchini completo Gold",
     material: "acciaio inox",
     price: "14.99",
     img: "img31.jpg",
   },
   {
     index: 30,
-    name: "Orecchini Earcuff Coquette",
+    name: "Orecchini Earcuff Coquette Gold",
     material: "acciaio inox",
     price: "14.99",
     img: "img32.jpg",
   },
   {
     index: 31,
-    name: "Orecchini Nerlin",
+    name: "Orecchini Nerlin Silver",
     material: "acciaio inox",
     price: "12.00",
     img: "img33.jpg",
@@ -225,7 +225,7 @@ productos = [
   },
   {
     index: 33,
-    name: "Orecchini Rosa",
+    name: "Orecchini Rosa Silver",
     material: "acciaio inox",
     price: "14.00",
     img: "img35.jpg",
@@ -239,21 +239,21 @@ productos = [
   },*/
   {
     index: 35,
-    name: "Orecchini Set Delia",
+    name: "Orecchini Set Delia Gold",
     material: "acciaio inox",
     price: "17.00",
     img: "img28.jpeg",
   },
   {
     index: 36,
-    name: "Orecchini Melita",
+    name: "Orecchini Melita Silver",
     material: "acciaio inox",
     price: "12.50",
     img: "img38.jpg",
   },
   {
     index: 37,
-    name: "Orecchini Punti luce",
+    name: "Orecchini Punti luce Silver",
     material: "Argento s925",
     price: "7.00",
     img: "img39.jpg",
@@ -267,14 +267,14 @@ productos = [
     img: "img40.jpg",
   }*/ {
     index: 39,
-    name: "Anello Coquette",
+    name: "Anello Coquette Silver",
     material: "Argento s925",
     price: "14.90",
     img: "img41.jpeg",
   },
   {
     index: 40,
-    name: "Collana Heart",
+    name: "Collana Heart Silver",
     material: "Argento s925",
     price: "14.90",
     img: "img42.jpeg",
@@ -288,7 +288,7 @@ productos = [
   },*/
   {
     index: 42,
-    name: "Collana Sofia",
+    name: "Collana Sofia Silver",
     material: "Argento s925",
     price: "15.90",
     img: "img44.jpg",
@@ -309,7 +309,7 @@ productos = [
   },
   {
     index: 45,
-    name: "Mono Orecchini Flora",
+    name: "Mono Orecchini Flora Silver",
     material: "argento s925",
     price: "14.00",
     img: "img47.png",
@@ -366,7 +366,7 @@ productos = [
   ,
   {
     index: 54,
-    name: "Collana Zoe",
+    name: "Collana Zoe Gold",
     material: "acciaio inox",
     price: "12.50",
     img: "img55.jpg",
@@ -374,14 +374,14 @@ productos = [
   ,
   {
     index: 55,
-    name: "Collana Adele",
+    name: "Collana Adele Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img56.jpg",
   },
   {
     index: 56,
-    name: "Collana Iris",
+    name: "Collana Iris Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img57.jpg",
@@ -389,7 +389,7 @@ productos = [
   ,
   {
     index: 57,
-    name: "Orecchini Punto Luce Grande ",
+    name: "Orecchini Punto Luce Grande Silver",
     material: "Argento 925",
     price: "12.50",
     img: "img58.png",
@@ -397,7 +397,7 @@ productos = [
   ,
   {
     index: 58,
-    name: "Orecchini Punto Luce Cuore",
+    name: "Orecchini Punto Luce Cuore Silver",
     material: "Argento 925",
     price: "12.00",
     img: "img59.jpg",
@@ -405,14 +405,14 @@ productos = [
   ,
   {
     index: 59,
-    name: "Orecchini Punto Luce Quadrato",
+    name: "Orecchini Punto Luce Quadrato Silver",
     material: "Argento 925",
     price: "12.00",
     img: "img60.jpg",
   },
   {
     index: 60,
-    name: "Collana mia",
+    name: "Collana Mia Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img61.jpeg",
@@ -433,111 +433,111 @@ productos = [
   },
   {
     index: 63,
-    name: "Anello Double",
+    name: "Anello Double Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img64.jpeg",
   },
   {
     index: 64,
-    name: "Anello Livia",
+    name: "Anello Livia Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img65.jpeg",
   },
   {
     index: 65,
-    name: "Anello Giulia",
+    name: "Anello Giulia Gold",
     material: "acciaio inox",
     price: "11.00",
     img: "img66.jpeg",
   },
   {
     index: 66,
-    name: "Anello chunky Alice",
+    name: "Anello chunky Alice Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img67.jpeg",
   },
   {
     index: 67,
-    name: "Anello Ludo",
+    name: "Anello Ludo Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img68.jpeg",
   },
   {
     index: 68,
-    name: "Anello chunky britney",
+    name: "Anello chunky britney Gold/Silver",
     material: "acciaio inox",
     price: "12.00",
     img: "img69.jpeg",
   },
   {
     index: 69,
-    name: "Orecchini Cerchietti zirconati",
+    name: "Orecchini Cerchietti Zirconati Gold",
     material: "acciaio inox",
     price: "8.00",
     img: "img70.jpeg",
   },
   {
     index: 70,
-    name: "Orecchini Piercing trifoglio",
+    name: "Orecchini Piercing Trifoglio Gold",
     material: "acciaio inox",
     price: "7.00",
     img: "img71.jpeg",
   },
   {
     index: 71,
-    name: "OrecchiniPiercing quadrifoglio",
+    name: "OrecchiniPiercing quadrifoglio Silver",
     material: "acciaio inox",
     price: "7.00",
     img: "img72.jpeg",
   },
   {
     index: 72,
-    name: "Orecchini Esther",
+    name: "Orecchini Esther Gold",
     material: "acciaio inox",
     price: "14.00",
     img: "img73.jpeg",
   },
   {
     index: 73,
-    name: "Ganchetti Multi Collana",
+    name: "Ganchetti Multi Collana Gold/Silver",
     material: "acciaio inox",
     price: "5.00",
     img: "img74.jpeg",
   },
   {
     index: 74,
-    name: "Collana Lina",
+    name: "Collana Lina Gold",
     material: "acciaio inox",
     price: "15.00",
     img: "img75.jpg",
   },
   {
     index: 75,
-    name: "Bracciale Luna",
+    name: "Bracciale Luna Gold",
     material: "acciaio inox",
     price: "10.00",
     img: "img76.jpeg",
   },
   {
     index: 76,
-    name: "Bracciale Sole",
+    name: "Bracciale Sole Gold",
     material: "acciaio inox",
     price: "10.00",
     img: "img77.jpeg",
   },
   {
     index: 77,
-    name: "Orecchini Hoops Lisa",
+    name: "Orecchini Hoops Lisa Gold",
     material: "acciaio inox",
     price: "8.00",
     img: "img78.jpeg",
   },{
     index: 78,
-    name: "Anello Gemini",
+    name: "Anello Gemini Gold/Silver",
     material: "acciaio inox",
     price: "13.00",
     img: "img79.jpeg",
@@ -573,13 +573,13 @@ productos = [
     img: "img84.jpeg",
   },{
     index: 84,
-    name: "Orecchini Piercing in titanio",
+    name: "Orecchini Piercing in titanio Gold/Silver",
     material: "",
     price: "9,50 ( l’uno)",
     img: "img85.jpeg",
   },{
     index: 85,
-    name: "Orecchini Piercing in titanio",
+    name: "Orecchini Piercing in titanio Gold/Silver",
     material: "",
     price: "9,50 ( l’uno)",
     img: "img86.jpeg",
@@ -615,7 +615,7 @@ productos = [
     img: "img91.jpeg",
   },{
     index: 91,
-    name: "Collana Perla",
+    name: "Collana Perla Silver",
     material: "Acciaio Inox",
     price: "14,50",
     img: "img92.jpeg",
@@ -663,7 +663,7 @@ productos = [
     img: "img99.jpeg",
   },{
     index: 99,
-    name: "Anello Olga",
+    name: "Anello Olga Gold",
     material: "Acciaio Inox",
     price: "12,00",
     img: "img100.jpeg",
@@ -687,19 +687,20 @@ productos = [
     img: "img103.jpeg",
   },{
     index: 103,
-    name: "Orecchini cerchietti Amber",
+    name: "Orecchini cerchietti Amber Gold/Silver",
     material: "acciaio inox",
-    price: "08,00",
+    price: "8,00",
     img: "img104.jpeg",
   },
 ];
 
 const contenedor = document.getElementById("lista-productos");
-
 const params = new URLSearchParams(window.location.search);
-const categoria = params.get("categoria");
+const categoria = params.get("categoria"); // esto puede ser 'anello', 'collana', etc.
 
 let productosFiltrados = productos;
+
+// Mostrar los productos de la categoría al cargar la página
 if (categoria) {
   const palabraClave = categoria.toLowerCase();
   productosFiltrados = productos.filter((p) =>
@@ -707,21 +708,16 @@ if (categoria) {
   );
 }
 
-function filtrarPorNombre(palabra) {
-  // Limpiar contenido actual
+// Función que muestra productos (reutilizable)
+function mostrarProductos(lista) {
   contenedor.innerHTML = "";
-
-  const filtrados = productos.filter(p =>
-    p.name.toLowerCase().includes(palabra.toLowerCase())
-  );
-
-  filtrados.forEach((producto) => {
+  lista.forEach((producto) => {
     const div = document.createElement("div");
     div.classList.add("product");
     div.innerHTML = `
       <img src="img-new/${producto.img}" alt="${producto.name}">
       <h3>${producto.name}</h3>
-      <p> ${producto.material}</p>
+      <p>${producto.material}</p>
       <p class="precio">€ ${producto.price}</p>
       <a href="#" class="agregar-carrito btn-2" data-id="${producto.index}">
         aggiungi al carrello
@@ -731,18 +727,26 @@ function filtrarPorNombre(palabra) {
   });
 }
 
+// Mostrar productos iniciales (por categoría)
+mostrarProductos(productosFiltrados);
 
-productosFiltrados.forEach((producto) => {
-  const div = document.createElement("div");
-  div.classList.add("product");
-  div.innerHTML = `
-    <img src="img-new/${producto.img}" alt="${producto.name}">
-    <h3>${producto.name}</h3>
-    <p> ${producto.material}</p>
-    <p class="precio">€ ${producto.price}</p>
-    <a href="#" class="agregar-carrito btn-2" data-id="${producto.index}">
-      aggiungi al carrello
-    </a>
-  `;
-  contenedor.appendChild(div);
-});
+// Función para filtrar por color sin perder la categoría
+function filtrarPorNombre(color) {
+  let listaFiltrada = productos;
+
+  if (categoria) {
+    const palabraClave = categoria.toLowerCase();
+    listaFiltrada = listaFiltrada.filter((p) =>
+      p.name.toLowerCase().includes(palabraClave)
+    );
+  }
+
+  if (color) {
+    listaFiltrada = listaFiltrada.filter((p) =>
+      p.name.toLowerCase().includes(color.toLowerCase())
+    );
+  }
+
+  mostrarProductos(listaFiltrada);
+}
+
