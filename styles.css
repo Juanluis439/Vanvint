@@ -250,13 +250,10 @@ td {
 }
 
 .product-content {
-  align-items: stretch;
-}
-
-.product-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  align-items: stretch;
 }
 
 .product {
@@ -273,7 +270,7 @@ td {
 .product img {
   width: 100%; /* Ocupará todo el ancho de la tarjeta */
   height: 200px; /* Altura fija para que todas sean iguales */
-  object-fit: cover; /* Recorta la imagen para ajustarla sin deformarla */
+  /* Recorta la imagen para ajustarla sin deformarla */
   border-radius: 8px;
 }
 
@@ -546,7 +543,7 @@ button.decrementar:hover {
   .product img {
   width: 100%;
   height: auto;
-  object-fit: cover; /* opcional si quieres que la imagen llene el espacio recortando */
+ /* opcional si quieres que la imagen llene el espacio recortando */
   max-width: 100%;
 }
 
