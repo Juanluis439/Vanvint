@@ -132,7 +132,7 @@ productos = [
     price: "5.00",
     img: "img20.jpg",
   },
-  {
+  /*{
     index: 20,
     name: "Bracciale Aurora Gold",
     material: "acciaio inox",
