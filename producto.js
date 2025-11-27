@@ -48,13 +48,13 @@ productos = [
     price: "14.90",
     img: "img7.jpg",
   },
-  {
+  /*{
     index: 7,
     name: "Anello Valery Silver",
     material: "Argento s925",
     price: "10.00",
     img: "img8.jpg",
-  },
+  }*/
   {
     index: 8,
     name: "Anello Andrea Silver",
@@ -90,13 +90,13 @@ productos = [
     price: "12.90",
     img: "img13.jpg",
   },
-  {
+  /*{
     index: 13,
     name: "Anello Briar Gold",
     material: "Argento s925",
     price: "12.00",
     img: "img14.jpg",
-  },
+  },*/
   {
     index: 14,
     name: "Anello Laura Gold",
@@ -438,13 +438,13 @@ productos = [
     price: "13.00",
     img: "img64.jpeg",
   },
-  {
+  /*{
     index: 64,
     name: "Anello Livia Gold",
     material: "acciaio inox",
     price: "12.00",
     img: "img65.jpeg",
-  },
+  },*/
   {
     index: 65,
     name: "Anello Giulia Gold",
@@ -459,13 +459,13 @@ productos = [
     price: "13.00",
     img: "img67.jpeg",
   },
-  {
+  /*{
     index: 67,
     name: "Anello Ludo Gold",
     material: "acciaio inox",
     price: "13.00",
     img: "img68.jpeg",
-  },
+  },*/
   {
     index: 68,
     name: "Anello chunky britney Gold/Silver",
@@ -535,13 +535,13 @@ productos = [
     material: "acciaio inox",
     price: "8.00",
     img: "img78.jpeg",
-  },{
+  },/*{
     index: 78,
     name: "Anello Gemini Gold/Silver",
     material: "acciaio inox",
     price: "13.00",
     img: "img79.jpeg",
-  },{
+  },*/{
     index: 79,
     name: "Orecchini Nedda Gold",
     material: "acciaio inox",
