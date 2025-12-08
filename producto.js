@@ -150,7 +150,7 @@ productos = [
     index: 22,
     name: "Orecchini Goccia Gold",
     material: "acciaio inox",
-    price: "14.90",
+    price: "11.90",
     img: "img23.jpeg",
   },
   {
@@ -285,14 +285,14 @@ productos = [
     material: "acciaio inox",
     price: "6.50",
     img: "img43.jpg",
-  },*/
+  },
   {
     index: 42,
     name: "Collana Sofia Silver",
     material: "Argento s925",
     price: "18.90",
     img: "img44.jpg",
-  },
+  },*/
   {
     index: 43,
     name: "Collana Snake Silver",
@@ -339,7 +339,7 @@ productos = [
     index: 50,
     name: "Orecchini Luna Silver",
     material: "acciaio inox",
-    price: "15.00",
+    price: "14.21",
     img: "img51.jpg",
   },
   {
@@ -353,7 +353,7 @@ productos = [
     index: 52,
     name: "Orecchini Luna Gold",
     material: "acciaio inox",
-    price: "15.00",
+    price: "14.21",
     img: "img53.jpg",
   },
   {
@@ -456,7 +456,7 @@ productos = [
     index: 66,
     name: "Anello chunky Alice Gold",
     material: "acciaio inox",
-    price: "16.00",
+    price: "15.35",
     img: "img67.jpeg",
   },
   /*{
@@ -498,7 +498,7 @@ productos = [
     index: 72,
     name: "Orecchini Esther Gold",
     material: "acciaio inox",
-    price: "17.00",
+    price: "15.00",
     img: "img73.jpeg",
   },
   {
@@ -587,7 +587,7 @@ productos = [
     index: 86,
     name: "Orecchini martina Gold",
     material: "acciaio inox",
-    price: "15,00",
+    price: "14,90",
     img: "img87.jpeg",
   },{
     index: 87,
@@ -613,7 +613,7 @@ productos = [
     material: "Acciaio Inox",
     price: "13,90",
     img: "img91.jpeg",
-  },{
+  },/*{
     index: 91,
     name: "Collana Perla Silver",
     material: "Acciaio Inox",
@@ -677,7 +677,7 @@ productos = [
     index: 101,
     name: "Orecchini Giorgia Gold",
     material: "acciaio inox",
-    price: "14,00",
+    price: "12,85",
     img: "img102.jpeg",
   },{
     index: 102,
@@ -691,6 +691,69 @@ productos = [
     material: "acciaio inox",
     price: "10,30",
     img: "img104.jpeg",
+  },
+  {
+    index: 104,
+    name: "Orecchini Marea Gold",
+    material: "acciaio inox",
+    price: "13,86",
+    img: "img105.jpeg",
+  },
+  {
+    index: 105,
+    name: "Orecchini Marea Silver",
+    material: "acciaio inox",
+    price: "13,86",
+    img: "img106.jpeg",
+  },
+  {
+    index: 106,
+    name: "Orecchini Sydney Silver",
+    material: "acciaio inox",
+    price: "13,86",
+    img: "img107.jpeg",
+  },
+  {
+    index: 107,
+    name: "Orecchini Sydney Gold",
+    material: "acciaio inox",
+    price: "13,86",
+    img: "img108.jpeg",
+  },
+  {
+    index: 108,
+    name: "Bracciale shine",
+    material: "acciaio inox",
+    price: "14,00",
+    img: "img109.jpeg",
+  },
+  {
+    index: 109,
+    name: "Collana iside",
+    material: "argento s925",
+    price: "17,85",
+    img: "img110.jpeg",
+  },
+  {
+    index: 110,
+    name: "Collana Zendaya",
+    material: "acciaio inox",
+    price: "13,99",
+    img: "img111.jpeg",
+  },
+  {
+    index: 111,
+    name: "Collana Sissi",
+    material: "acciaio inox",
+    price: "13,99",
+    img: "img112.jpeg",
+  },
+  {
+    index: 112,
+    name: "Collana Lyly",
+    material: "acciaio inox",
+    price: "13,98",
+    img: "img113.jpeg",
   },
 ];
 
