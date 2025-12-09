@@ -257,7 +257,7 @@ td {
 .btn-2 {
   background: none !important;   /* sin fondo */
   border: none;                  /* sin borde */
-  color: white;                  /* o el color que quieras */
+  color: green;                  /* o el color que quieras */
   padding: 0;                    /* quitar espacio extra */
   font-size: 18px;
   cursor: pointer;
