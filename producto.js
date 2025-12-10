@@ -755,6 +755,20 @@ productos = [
     price: "13,98",
     img: "img113.jpeg",
   },
+  {
+    index: 113,
+    name: "Anello Hug Gold",
+    material: "acciaio inox",
+    price: "14,50",
+    img: "img114.jpeg",
+  },
+  {
+    index: 114,
+    name: "Anello Hug Silver",
+    material: "acciaio inox",
+    price: "14,50",
+    img: "img115.jpeg",
+  },
 ];
 
 const contenedor = document.getElementById("lista-productos");
