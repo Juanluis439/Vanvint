@@ -375,5 +375,32 @@
     <script src="script.js"></script>
     <script src="wsp.js"></script>
     <script defer src="https://app.embed.im/snow.js"></script>
+
+    <!-- POPUP NAVIDEÑO -->
+<div id="popup-navidad" class="popup-navidad">
+    <div class="popup-contenido">
+        <span class="cerrar-popup" onclick="cerrarPopup()">×</span>
+        <h2>🎅 Offerte Natalizie quí 🎄</h2>
+        <p>Approfitta degli sconti speciali di Natale.</p>
+        <a href="navidad.html" class="boton-ver-todo">Vedi tutto</a>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+    <script src="wsp.js"></script>
+    <script>
+function cerrarPopup() {
+    document.getElementById("popup-navidad").style.display = "none";
+}
+
+// Mostrar popup automáticamente al entrar a la página
+window.onload = function() {
+    document.getElementById("popup-navidad").style.display = "flex";
+};
+</script>
+
+<script defer src="https://app.embed.im/snow.js"></script>
+
   </body>
 </html>

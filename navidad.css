@@ -51,14 +51,15 @@ img {
 .header {
   display: flex;
   align-items: center;
-  min-height:100vh;
-  background-image: url("img-new/index.jpeg");
-  background-size: cover;
+  min-height: 100vh;
+  background-image: url("img-new/navidad.jpeg");
+  background-size: contain;   /* Hace que la imagen completa sea visible */
   background-position: center;
   background-repeat: no-repeat;
   padding: 70px 0;
   position: relative;
 }
+
 
 /* 🎄 Luces navideñas minimalistas */
 .header::after {
