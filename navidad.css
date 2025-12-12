@@ -61,7 +61,7 @@ img {
 }
 
 
-/* 🎄 Luces navideñas minimalistas */
+/* 🎄 Luces navideñas minimalistas 
 .header::after {
   content:"";
   position:absolute;
@@ -77,7 +77,7 @@ img {
 @keyframes luces {
   from { background-position: 0 0; }
   to { background-position: 200px 0; }
-}
+}*/
 
 .menu {
   position: absolute;
