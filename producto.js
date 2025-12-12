@@ -727,7 +727,7 @@ productos = [
     price: "14,00",
     img: "img109.jpeg",
   },
-  {
+  /*{
     index: 109,
     name: "Collana iside",
     material: "argento s925",
@@ -796,7 +796,7 @@ productos = [
     material: "acciaio inox",
     price: "16,50",
     img: "img119.jpeg",
-  },
+  },*/
 ];
 
 const contenedor = document.getElementById("lista-productos");
