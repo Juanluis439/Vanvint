@@ -785,7 +785,7 @@ productos = [
   },
   {
     index: 117,
-    name: "Collana Sevilla",
+    name: "Collana Mania",
     material: "acciaio inox",
     price: "16,50",
     img: "img118.jpeg",
