@@ -769,6 +769,34 @@ productos = [
     price: "14,50",
     img: "img115.jpeg",
   },
+  {
+    index: 115,
+    name: "Collana Neve",
+    material: "Argento s925",
+    price: "17,00",
+    img: "img116.jpeg",
+  },
+  {
+    index: 116,
+    name: "Set Minerva",
+    material: "acciaio inox",
+    price: "18,50",
+    img: "img117.jpeg",
+  },
+  {
+    index: 117,
+    name: "Collana Sevilla",
+    material: "acciaio inox",
+    price: "16,50",
+    img: "img118.jpeg",
+  },
+  {
+    index: 118,
+    name: "Collana Aura",
+    material: "acciaio inox",
+    price: "16,50",
+    img: "img119.jpeg",
+  },
 ];
 
 const contenedor = document.getElementById("lista-productos");
