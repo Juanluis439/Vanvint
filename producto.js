@@ -810,6 +810,13 @@ productos = [
     material: "acciaio inox",
     price: "10,90",
     img: "img121.jpeg",
+  },
+  {
+    index: 121,
+    name: "Orecchini Perla",
+    material: "acciaio inox",
+    price: "10,90",
+    img: "img122.jpeg",
   },*/
 ];
 
