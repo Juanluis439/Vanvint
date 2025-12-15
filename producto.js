@@ -796,6 +796,20 @@ productos = [
     material: "acciaio inox",
     price: "16,50",
     img: "img119.jpeg",
+  },
+  {
+    index: 119,
+    name: "Bracciale Lena",
+    material: "acciaio inox",
+    price: "13,00",
+    img: "img120.jpeg",
+  },
+  {
+    index: 120,
+    name: "Orecchini Diosa",
+    material: "acciaio inox",
+    price: "10,90",
+    img: "img121.jpeg",
   },*/
 ];
 
