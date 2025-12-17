@@ -817,6 +817,20 @@ productos = [
     material: "acciaio inox",
     price: "10,90",
     img: "img122.jpeg",
+  },
+  {
+    index: 122,
+    name: "Collana perla",
+    material: "acciaio inox",
+    price: "13,00",
+    img: "img123.jpeg",
+  },
+  {
+    index: 123,
+    name: "Collana Ambra",
+    material: "acciaio inox",
+    price: "16,00",
+    img: "img124.jpeg",
   },*/
 ];
 
