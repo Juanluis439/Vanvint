@@ -831,6 +831,47 @@ productos = [
     material: "acciaio inox",
     price: "16,00",
     img: "img124.jpeg",
+  },
+  {
+    index: 124,
+    name: "Collana Brianna Gold",
+    material: "acciaio inox",
+    price: "13,90",
+    img: "img125.jpeg",
+  },
+  {
+    index: 125,
+    name: "Collana Brianna Silver",
+    material: "acciaio inox",
+    price: "13,90",
+    img: "img126.jpeg",
+  },
+  {
+    index: 126,
+    name: "Collana Camilla Silver",
+    material: "acciaio inox",
+    price: "14,90",
+    img: "img127.jpeg",
+  },
+  {
+    index: 127,
+    name: "Bracciale Virginia Gold",
+    material: "acciaio inox",
+    price: "14,00",
+    img: "img128.jpeg",
+  },{
+    index: 128,
+    name: "Bracciale Virginia Silver",
+    material: "acciaio inox",
+    price: "14,00",
+    img: "img128.jpeg",
+  },
+  {
+    index: 129,
+    name: "Orecchini Lavinia",
+    material: "acciaio inox",
+    price: "11,90",
+    img: "img130.jpeg",
   },*/
 ];
 
