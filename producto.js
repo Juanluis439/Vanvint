@@ -885,6 +885,24 @@ productos = [
     material: "acciaio inox",
     price: "13,90",
     img: "img132.jpeg",
+  },{
+    index: 132,
+    name: "Orecchini Senza Buco Gold",
+    material: "acciaio inox",
+    price: "9,50",
+    img: "img133.jpeg",
+  },{
+    index: 133,
+    name: "Bracciale Firenze Gold",
+    material: "acciaio inox",
+    price: "14,90",
+    img: "img134.jpeg",
+  },{
+    index: 134,
+    name: "Bracciale Firenze Silver",
+    material: "acciaio inox",
+    price: "14,90",
+    img: "img135.jpeg",
   },
 ];
 
