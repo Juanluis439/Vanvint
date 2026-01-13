@@ -139,13 +139,13 @@ productos = [
     price: "14.86",
     img: "img21.png",
   },
-  /*{
+  */{
     index: 21,
-    name: "Orecchini Ros",
+    name: "Orecchini Ros Gold",
     material: "acciaio inox",
-    price: "12.90",
-    img: "img22.png",
-  },*/
+    price: "14.50",
+    img: "img22.jpeg",
+  },
   {
     index: 22,
     name: "Orecchini Goccia Gold",
@@ -727,7 +727,7 @@ productos = [
     price: "14,00",
     img: "img109.jpeg",
   },
-  /*{
+  {
     index: 109,
     name: "Collana iside",
     material: "argento s925",
@@ -872,7 +872,20 @@ productos = [
     material: "acciaio inox",
     price: "11,90",
     img: "img130.jpeg",
-  },*/
+  },{
+    index: 130,
+    name: "Orecchini Sheila Gold",
+    material: "acciaio inox",
+    price: "13,90",
+    img: "img131.jpeg",
+  },
+  {
+    index: 131,
+    name: "Orecchini Shave Gold",
+    material: "acciaio inox",
+    price: "13,90",
+    img: "img132.jpeg",
+  },
 ];
 
 const contenedor = document.getElementById("lista-productos");
