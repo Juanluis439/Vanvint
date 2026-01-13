@@ -410,13 +410,13 @@ productos = [
     price: "15.00",
     img: "img60.jpg",
   },
-  {
+  /*{
     index: 60,
     name: "Collana Mia Gold",
     material: "acciaio inox",
     price: "16.00",
     img: "img61.jpeg",
-  },
+  },*/
   {
     index: 61,
     name: "Orecchini Elsa Gold",
@@ -508,13 +508,13 @@ productos = [
     price: "5.00",
     img: "img74.jpeg",
   },
-  {
+  /*{
     index: 74,
     name: "Collana Lina Gold",
     material: "acciaio inox",
     price: "18.00",
     img: "img75.jpg",
-  },
+  },*/
   {
     index: 75,
     name: "Bracciale Luna Gold",
@@ -655,13 +655,13 @@ productos = [
     material: "Acciaio Inox",
     price: "12,00",
     img: "img98.jpeg",
-  },*/{
+  },{
     index: 98,
     name: "Collana Estiva Gold",
     material: "Acciaio Inox",
     price: "17,50 ( l’uno)",
     img: "img99.jpeg",
-  },{
+  },*/{
     index: 99,
     name: "Anello Olga Gold",
     material: "Acciaio Inox",
@@ -727,13 +727,13 @@ productos = [
     price: "14,00",
     img: "img109.jpeg",
   },
-  {
+  /*{
     index: 109,
     name: "Collana iside",
     material: "argento s925",
     price: "17,85",
     img: "img110.jpeg",
-  },
+  },*/
   {
     index: 110,
     name: "Collana Zendaya",
@@ -769,13 +769,13 @@ productos = [
     price: "14,50",
     img: "img115.jpeg",
   },
-  {
+  /*{
     index: 115,
     name: "Collana Neve",
     material: "Argento s925",
     price: "17,00",
     img: "img116.jpeg",
-  },
+  },*/
   {
     index: 116,
     name: "Set Minerva",
@@ -864,7 +864,7 @@ productos = [
     name: "Bracciale Virginia Silver",
     material: "acciaio inox",
     price: "14,00",
-    img: "img128.jpeg",
+    img: "img129.jpeg",
   },
   {
     index: 129,
