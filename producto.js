@@ -34,13 +34,13 @@ productos = [
     price: "16.90",
     img: "img5.jpg",
   },
-  {
+  /*{
     index: 5,
     name: "Anello Infinity Silver",
     material: "Argento s925",
     price: "15.90",
     img: "img6.jpg",
-  },
+  },*/
   {
     index: 6,
     name: "Anello Susan Silver",
@@ -188,14 +188,14 @@ productos = [
     price: "13.90",
     img: "img29.jpg",
   },
-  {
+  /*{
     index: 28,
     name: "Orecchini Nadette Gold",
     material: "acciaio inox",
     price: "13.90",
     img: "img30.jpg",
   },
- /* {
+  {
     index: 29,
     name: "Earcuff orecchini completo Gold",
     material: "acciaio inox",
@@ -208,14 +208,14 @@ productos = [
     material: "acciaio inox",
     price: "14.99",
     img: "img32.jpg",
-  },*/
+  },
   {
     index: 31,
     name: "Orecchini Nerlin Silver",
     material: "acciaio inox",
     price: "15.00",
     img: "img33.jpg",
-  },
+  },*/
   {
     index: 32,
     name: "Orecchini Goccia Silver",
@@ -223,7 +223,7 @@ productos = [
     price: "14.90",
     img: "img34.jpeg",
   },
-  {
+  /*{
     index: 33,
     name: "Orecchini Rosa Silver",
     material: "acciaio inox",
@@ -244,13 +244,13 @@ productos = [
     price: "19.00",
     img: "img28.jpeg",
   },
-  {
+  /*{
     index: 36,
     name: "Orecchini Melita Silver",
     material: "acciaio inox",
     price: "15.50",
     img: "img38.jpg",
-  },
+  },*/
   {
     index: 37,
     name: "Orecchini Punti luce Silver",
@@ -328,13 +328,13 @@ productos = [
     price: "12.90",
     img: "img49.png",
   },
-  {
+  /*{
     index: 49,
     name: "Bracciale Emma Silver",
     material: "acciaio inox",
     price: "15.00",
     img: "img50.jpg",
-  },
+  },*/
   {
     index: 50,
     name: "Orecchini Luna Silver",
@@ -387,7 +387,7 @@ productos = [
     img: "img57.jpg",
   },
   ,
-  {
+  /*{
     index: 57,
     name: "Orecchini Punto Luce Grande Silver",
     material: "Argento 925",
@@ -410,7 +410,7 @@ productos = [
     price: "15.00",
     img: "img60.jpg",
   },
-  /*{
+  {
     index: 60,
     name: "Collana Mia Gold",
     material: "acciaio inox",
@@ -494,13 +494,13 @@ productos = [
     price: "7.00",
     img: "img72.jpeg",
   },
-  {
+  /*{
     index: 72,
     name: "Orecchini Esther Gold",
     material: "acciaio inox",
     price: "15.00",
     img: "img73.jpeg",
-  },
+  },*/
   {
     index: 73,
     name: "Ganchetti Multi Collana Gold/Silver",
@@ -601,13 +601,13 @@ productos = [
     material: "Argento s925",
     price: "17,50",
     img: "img89.jpeg",
-  },{
+  },/*{
     index: 89,
     name: "Orecchini Saliscendi Noemy Silver",
     material: "Argento s925",
     price: "17,50",
     img: "img90.jpeg",
-  },{
+  },*/{
     index: 90,
     name: "Anello Ariel Gold",
     material: "Acciaio Inox",
