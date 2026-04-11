@@ -129,7 +129,11 @@ productos = [
     index: 19,
     name: "Orecchini Piercing cerchietto Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "5.00",
+=======
+    price: "9.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img20.jpg",
   },
   /*{
@@ -143,28 +147,44 @@ productos = [
     index: 21,
     name: "Orecchini Ros Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "14.50",
+=======
+    price: "18.50",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img22.jpeg",
   },
   {
     index: 22,
     name: "Orecchini Goccia Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "11.90",
+=======
+    price: "15.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img23.jpeg",
   },
   {
     index: 23,
     name: "Orecchini Saliscendi Cuore Gold",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "15.90",
+=======
+    price: "19.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img24.jpeg",
   },
   {
     index: 24,
     name: "Orecchini Ámbar Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "15.50",
+=======
+    price: "19.50",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img25.jpg",
   },
   /*{
@@ -185,7 +205,11 @@ productos = [
     index: 27,
     name: "Orecchini Laura Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13.90",
+=======
+    price: "17.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img29.jpg",
   },
   /*{
@@ -220,7 +244,11 @@ productos = [
     index: 32,
     name: "Orecchini Goccia Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "14.90",
+=======
+    price: "17.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img34.jpeg",
   },
   /*{
@@ -241,7 +269,11 @@ productos = [
     index: 35,
     name: "Orecchini Set Delia Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "19.00",
+=======
+    price: "23.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img28.jpeg",
   },
   /*{
@@ -255,7 +287,11 @@ productos = [
     index: 37,
     name: "Orecchini Punti luce Silver",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "7.00",
+=======
+    price: "11.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img39.jpg",
   },
   ,
@@ -339,7 +375,11 @@ productos = [
     index: 50,
     name: "Orecchini Luna Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "14.21",
+=======
+    price: "17.21",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img51.jpg",
   },
   {
@@ -353,7 +393,11 @@ productos = [
     index: 52,
     name: "Orecchini Luna Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "14.21",
+=======
+    price: "17.21",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img53.jpg",
   },
   {
@@ -421,14 +465,22 @@ productos = [
     index: 61,
     name: "Orecchini Elsa Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13.90",
+=======
+    price: "17.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img62.jpeg",
   },
   {
     index: 62,
     name: "Orecchini Elsa Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13.90",
+=======
+    price: "17.90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img63.jpeg",
   },
   /*{
@@ -477,21 +529,33 @@ productos = [
     index: 69,
     name: "Orecchini Cerchietti Zirconati Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "8.00",
+=======
+    price: "12.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img70.jpeg",
   },
   {
     index: 70,
     name: "Orecchini Piercing Trifoglio Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "7.00",
+=======
+    price: "11.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img71.jpeg",
   },
   {
     index: 71,
     name: "OrecchiniPiercing quadrifoglio Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "7.00",
+=======
+    price: "11.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img72.jpeg",
   },
   /*{
@@ -533,7 +597,11 @@ productos = [
     index: 77,
     name: "Orecchini Hoops Lisa Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "8.00",
+=======
+    price: "12.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img78.jpeg",
   },/*{
     index: 78,
@@ -545,25 +613,41 @@ productos = [
     index: 79,
     name: "Orecchini Nedda Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13.00",
+=======
+    price: "17.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img80.jpeg",
   },{
     index: 80,
     name: "Orecchini Saliscendi iride Silver",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "17.00",
+=======
+    price: "21.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img81.jpeg",
   },{
     index: 81,
     name: "Orecchini Gine Silver",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "18.00",
+=======
+    price: "22.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img82.jpeg",
   },{
     index: 82,
     name: "Orecchini Set Alemania Gold",
     material: "Acciaio inox",
+<<<<<<< HEAD
     price: "18.00",
+=======
+    price: "22.00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img83.jpeg",
   },{
     index: 83,
@@ -575,31 +659,51 @@ productos = [
     index: 84,
     name: "Orecchini Piercing in titanio Gold/Silver",
     material: "",
+<<<<<<< HEAD
     price: "11,99 ( l’uno)",
+=======
+    price: "15,99 ( l’uno)",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img85.jpeg",
   },{
     index: 85,
     name: "Orecchini Piercing in titanio Gold/Silver",
     material: "",
+<<<<<<< HEAD
     price: "11,99 ( l’uno)",
+=======
+    price: "15,99 ( l’uno)",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img86.jpeg",
   },{
     index: 86,
     name: "Orecchini martina Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "14,90",
+=======
+    price: "17,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img87.jpeg",
   },{
     index: 87,
     name: "Collana Génova Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "17,50",
+=======
+    price: "21,50",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img88.jpeg",
   },{
     index: 88,
     name: "Orecchini Saliscendi Maris Gold",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "17,50",
+=======
+    price: "21,50",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img89.jpeg",
   },/*{
     index: 89,
@@ -671,53 +775,85 @@ productos = [
     index: 100,
     name: "Orecchini Saliscendi Cuore Silver",
     material: "Argento s925",
+<<<<<<< HEAD
     price: "15,90",
+=======
+    price: "19,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img101.jpeg",
   },{
     index: 101,
     name: "Orecchini Giorgia Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "12,85",
+=======
+    price: "16,85",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img102.jpeg",
   },{
     index: 102,
     name: "Orecchini Nivea Gold",
     material: "argento s925",
+<<<<<<< HEAD
     price: "18,00",
+=======
+    price: "22,00",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img103.jpeg",
   },{
     index: 103,
     name: "Orecchini cerchietti Amber Gold/Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "10,30",
+=======
+    price: "14,30",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img104.jpeg",
   },
   {
     index: 104,
     name: "Orecchini Marea Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,86",
+=======
+    price: "17,86",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img105.jpeg",
   },
   {
     index: 105,
     name: "Orecchini Marea Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,86",
+=======
+    price: "17,86",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img106.jpeg",
   },
   {
     index: 106,
     name: "Orecchini Sydney Silver",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,86",
+=======
+    price: "17,86",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img107.jpeg",
   },
   {
     index: 107,
     name: "Orecchini Sydney Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,86",
+=======
+    price: "17,86",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img108.jpeg",
   },
   {
@@ -808,14 +944,22 @@ productos = [
     index: 120,
     name: "Orecchini Diosa",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "10,90",
+=======
+    price: "14,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img121.jpeg",
   },
   {
     index: 121,
     name: "Orecchini Perla",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "10,90",
+=======
+    price: "14,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img122.jpeg",
   },
   {
@@ -870,26 +1014,42 @@ productos = [
     index: 129,
     name: "Orecchini Lavinia",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "11,90",
+=======
+    price: "15,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img130.jpeg",
   },{
     index: 130,
     name: "Orecchini Sheila Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,90",
+=======
+    price: "17,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img131.jpeg",
   },
   {
     index: 131,
     name: "Orecchini Shave Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "13,90",
+=======
+    price: "17,90",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img132.jpeg",
   },{
     index: 132,
     name: "Orecchini Senza Buco Gold",
     material: "acciaio inox",
+<<<<<<< HEAD
     price: "9,50",
+=======
+    price: "13,50",
+>>>>>>> 75cfd43 (nueva configuracion)
     img: "img133.jpeg",
   },{
     index: 133,
