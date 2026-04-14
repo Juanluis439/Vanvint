@@ -17,7 +17,7 @@ productos = [
     index: 2,
     name: "Anello Maria Silver",
     material: "Argento s925",
-    price: "16.90",
+    price: "20.90",
     img: "img3.jpg",
   },
   {
@@ -59,7 +59,7 @@ productos = [
     index: 8,
     name: "Anello Andrea Silver",
     material: "Argento s925",
-    price: "17.90",
+    price: "21.90",
     img: "img9.png",
   },
   {
@@ -269,7 +269,7 @@ productos = [
     index: 39,
     name: "Anello Coquette Silver",
     material: "Argento s925",
-    price: "17.90",
+    price: "21.90",
     img: "img41.jpeg",
   },
   /*{
@@ -470,7 +470,7 @@ productos = [
     index: 68,
     name: "Anello chunky britney Gold/Silver",
     material: "acciaio inox",
-    price: "15.00",
+    price: "19.00",
     img: "img69.jpeg",
   },
   {
@@ -611,7 +611,7 @@ productos = [
     index: 90,
     name: "Anello Ariel Gold",
     material: "Acciaio Inox",
-    price: "13,90",
+    price: "17,90",
     img: "img91.jpeg",
   },/*{
     index: 91,
@@ -665,7 +665,7 @@ productos = [
     index: 99,
     name: "Anello Olga Gold",
     material: "Acciaio Inox",
-    price: "15,00",
+    price: "19,00",
     img: "img100.jpeg",
   },{
     index: 100,
