@@ -27,7 +27,7 @@ productos = [
     price: "16.90",
     img: "img4.jpg",
   },
-  {
+  /*{
     index: 4,
     name: "Anello Snake Silver",
     material: "Argento s925",
@@ -76,13 +76,13 @@ productos = [
     price: "14.90",
     img: "img11.jpg",
   },
-  {
+  /*{
     index: 11,
     name: "Anello Isabel Gold",
     material: "Argento s925",
     price: "16.90",
     img: "img12.jpg",
-  },
+  },*/
   {
     index: 12,
     name: "Anello Vivian Gold",
@@ -124,7 +124,7 @@ productos = [
     material: "acciaio inox",
     price: "7.00",
     img: "img19.jpg",
-  },*/
+  },
   {
     index: 19,
     name: "Orecchini Piercing cerchietto Gold",
@@ -146,13 +146,13 @@ productos = [
     price: "18.50",
     img: "img22.jpeg",
   },
-  {
+  /*{
     index: 22,
     name: "Orecchini Goccia Gold",
     material: "acciaio inox",
     price: "15.90",
     img: "img23.jpeg",
-  },
+  },*/
   {
     index: 23,
     name: "Orecchini Saliscendi Cuore Gold",
@@ -215,7 +215,7 @@ productos = [
     material: "acciaio inox",
     price: "15.00",
     img: "img33.jpg",
-  },*/
+  },
   {
     index: 32,
     name: "Orecchini Goccia Silver",
@@ -292,14 +292,14 @@ productos = [
     material: "Argento s925",
     price: "18.90",
     img: "img44.jpg",
-  },*/
+  },
   {
     index: 43,
     name: "Collana Snake Silver",
     material: "acciaio inox",
     price: "13.90",
     img: "img45.jpg",
-  },
+  },*/
   {
     index: 44,
     name: "Bracciale Isabella Silver",
@@ -342,13 +342,13 @@ productos = [
     price: "17.21",
     img: "img51.jpg",
   },
-  {
+  /*{
     index: 51,
     name: "Bracciale Emma Gold",
     material: "acciaio inox",
     price: "15.00",
     img: "img52.png",
-  },
+  },*/
   {
     index: 52,
     name: "Orecchini Luna Gold",
@@ -452,7 +452,7 @@ productos = [
     price: "14.00",
     img: "img66.jpeg",
   },
-  {
+  /*{
     index: 66,
     name: "Anello chunky Alice Gold",
     material: "acciaio inox",
@@ -589,13 +589,13 @@ productos = [
     material: "acciaio inox",
     price: "17,90",
     img: "img87.jpeg",
-  },{
+  },/*{
     index: 87,
     name: "Collana Génova Gold",
     material: "acciaio inox",
     price: "21,50",
     img: "img88.jpeg",
-  },{
+  },*/{
     index: 88,
     name: "Orecchini Saliscendi Maris Gold",
     material: "Argento s925",
@@ -692,13 +692,13 @@ productos = [
     price: "14,30",
     img: "img104.jpeg",
   },
-  {
+  /*{
     index: 104,
     name: "Orecchini Marea Gold",
     material: "acciaio inox",
     price: "17,86",
     img: "img105.jpeg",
-  },
+  },*/
   {
     index: 105,
     name: "Orecchini Marea Silver",
@@ -713,13 +713,13 @@ productos = [
     price: "17,86",
     img: "img107.jpeg",
   },
-  {
+  /*{
     index: 107,
     name: "Orecchini Sydney Gold",
     material: "acciaio inox",
     price: "17,86",
     img: "img108.jpeg",
-  },
+  },*/
   {
     index: 108,
     name: "Bracciale shine",
@@ -755,13 +755,13 @@ productos = [
     price: "13,98",
     img: "img113.jpeg",
   },
-  {
+  /*{
     index: 113,
     name: "Anello Hug Gold",
     material: "acciaio inox",
     price: "14,50",
     img: "img114.jpeg",
-  },
+  },*/
   {
     index: 114,
     name: "Anello Hug Silver",
@@ -790,7 +790,7 @@ productos = [
     price: "16,50",
     img: "img118.jpeg",
   },
-  {
+  /*{
     index: 118,
     name: "Collana Aura",
     material: "acciaio inox",
@@ -803,7 +803,7 @@ productos = [
     material: "acciaio inox",
     price: "13,00",
     img: "img120.jpeg",
-  },
+  },*/
   {
     index: 120,
     name: "Orecchini Diosa",
@@ -825,13 +825,13 @@ productos = [
     price: "13,00",
     img: "img123.jpeg",
   },
-  {
+  /*{
     index: 123,
     name: "Collana Ambra",
     material: "acciaio inox",
     price: "16,00",
     img: "img124.jpeg",
-  },
+  },*/
   {
     index: 124,
     name: "Collana Brianna Gold",
@@ -853,13 +853,13 @@ productos = [
     price: "14,90",
     img: "img127.jpeg",
   },
-  {
+  /*{
     index: 127,
     name: "Bracciale Virginia Gold",
     material: "acciaio inox",
     price: "14,00",
     img: "img128.jpeg",
-  },{
+  },*/{
     index: 128,
     name: "Bracciale Virginia Silver",
     material: "acciaio inox",
