@@ -569,7 +569,7 @@ productos = [
     index: 83,
     name: "Anello Alba Silver",
     material: "Argento s925",
-    price: "17.50",
+    price: "21.90",
     img: "img84.jpeg",
   },{
     index: 84,
